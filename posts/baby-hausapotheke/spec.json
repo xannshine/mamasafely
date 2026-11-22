@@ -1,0 +1,73 @@
+{
+  "cover": {
+    "kicker": "BABYS ERSTES JAHR · CHECKLISTE",
+    "titel": "Die <span class=\"mark\">Hausapotheke</span> fürs Baby:",
+    "icon": "drop",
+    "teaser": "Nr. 5 unbedingt merken!"
+  },
+  "slides": [
+    {
+      "titel": "Fieberthermometer",
+      "icon": "flame",
+      "punkte": [
+        "Digital – am besten für den Po",
+        "Bei Babys am genauesten",
+        "Nach jedem Messen reinigen"
+      ],
+      "notiz": "Im Ohr messen ist bei Babys oft ungenau.",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Für die Nase",
+      "icon": "voice",
+      "punkte": [
+        "Kochsalz-Nasentropfen",
+        "Sanfter Nasensauger",
+        "Abschwellende Tropfen nur nach Rat"
+      ],
+      "notiz": "Für Babys gibt es eigene, niedrig dosierte Mittel.",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Für die Haut",
+      "icon": "flower",
+      "punkte": [
+        "Wundschutzcreme für den Po",
+        "Kinderpflaster & Kompressen",
+        "Milde, parfümfreie Pflege"
+      ],
+      "notiz": "Babyhaut ist dünn – weniger ist mehr.",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Fiebermittel",
+      "icon": "doc",
+      "punkte": [
+        "Nur speziell für Babys",
+        "Dosis nach Gewicht – nie schätzen",
+        "Vorher mit Kinderarzt besprechen"
+      ],
+      "notiz": "Frag bei der U-Untersuchung, was ihr haben solltet.",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Wichtige Nummern",
+      "icon": "heart",
+      "punkte": [
+        "Kinderarzt & Hebamme",
+        "Ärztlicher Bereitschaftsdienst 116 117",
+        "Notruf 112 & Giftnotruf deiner Region"
+      ],
+      "notiz": "Baby unter 3 Monaten mit Fieber ab 38 °C: sofort zum Arzt.",
+      "hinweis": "Unbedingt merken!",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "schluss": {
+    "titel": "Alles <span class=\"mark yel\">da?</span>",
+    "text": "Ablaufdaten regelmäßig prüfen.",
+    "tipp": "<b>Tipp:</b> Leg einen Zettel mit allen Nummern und dem aktuellen Gewicht deines Babys dazu.",
+    "teilen": "Schick das frischen Eltern",
+    "quelle": "Im Zweifel immer Kinderarzt oder Hebamme fragen."
+  }
+}

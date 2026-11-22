@@ -1,0 +1,51 @@
+{
+  "thema": "Wann hört die Übelkeit auf?",
+  "kicker": "SCHWANGERSCHAFT · WOCHE FÜR WOCHE",
+  "hook": [
+    "Wann hört",
+    "die",
+    "Übelkeit",
+    "auf?"
+  ],
+  "teaser": "Nr. 5 musst du kennen!",
+  "highlight": 5,
+  "karten": [
+    {
+      "titel": "Ca. 6. SSW: es geht los",
+      "text": "oft morgens – kann aber den ganzen Tag sein",
+      "icon": "cup",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Ca. 8.–10. SSW: am stärksten",
+      "text": "bei vielen ist es jetzt am schlimmsten",
+      "icon": "flame",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Ca. 12.–14. SSW: es wird besser",
+      "text": "bei den meisten lässt es spürbar nach",
+      "icon": "heart",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Kleine Snacks helfen",
+      "text": "lieber oft wenig essen – und viel trinken",
+      "icon": "carrot",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Nichts bleibt drin?",
+      "text": "kein Essen, kein Trinken: bitte zur Ärztin",
+      "icon": "drop",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Wie war es",
+    "bei dir?"
+  ],
+  "unterzeile": "Schreib deine SSW in die Kommentare",
+  "speichern": "Speichern – für deine Schwangerschaft",
+  "zahlen_chips": false
+}

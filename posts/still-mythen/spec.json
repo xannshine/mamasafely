@@ -1,0 +1,56 @@
+{
+  "thema": "Still-Mythen",
+  "kicker": "MYTHOS ODER WAHRHEIT? STILLEN",
+  "hook": [
+    "{5} Mythen",
+    "übers",
+    "Stillen",
+    ""
+  ],
+  "teaser": "Nr. 4 stimmt wirklich!",
+  "highlight": 4,
+  "karten": [
+    {
+      "titel": "„Kleine Brüste, wenig Milch“",
+      "text": "die Größe sagt nichts über die Milchmenge",
+      "icon": "heart",
+      "stempel": "MYTHOS",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "„Stillen muss wehtun“",
+      "text": "starke Schmerzen? Anlegen mit Hebamme prüfen",
+      "icon": "hand",
+      "stempel": "MYTHOS",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "„Stillen ist sichere Verhütung“",
+      "text": "nicht zuverlässig – Verhütung früh besprechen",
+      "icon": "doc",
+      "stempel": "MYTHOS",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "„Muttermilch hat Abwehrstoffe“",
+      "text": "sie schützt dein Baby vor manchen Infekten",
+      "icon": "drop",
+      "stempel": "STIMMT!",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "„Malzbier bringt mehr Milch“",
+      "text": "häufiges Anlegen bringt viel mehr",
+      "icon": "cup",
+      "stempel": "MYTHOS",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Welchen hast du",
+    "gehört?"
+  ],
+  "unterzeile": "Nummer in die Kommentare:",
+  "speichern": "Speichern – für die Stillzeit",
+  "zahlen_chips": true
+}

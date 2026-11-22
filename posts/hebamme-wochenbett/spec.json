@@ -1,0 +1,73 @@
+{
+  "cover": {
+    "kicker": "WOCHENBETT · ZUM SPEICHERN",
+    "titel": "Das macht deine Hebamme im <span class=\"mark\">Wochenbett:</span>",
+    "icon": "heart",
+    "teaser": "Nr. 5 wissen viele nicht!"
+  },
+  "slides": [
+    {
+      "titel": "Wann sie kommt",
+      "icon": "doc",
+      "punkte": [
+        "Hausbesuche nach der Geburt",
+        "Anspruch bis 12 Wochen danach",
+        "Die Krankenkasse zahlt"
+      ],
+      "notiz": "Mit ärztlicher Verordnung auch länger.",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Check bei dir",
+      "icon": "heart",
+      "punkte": [
+        "Gebärmutter & Wochenfluss",
+        "Naht oder Kaiserschnittnarbe",
+        "Kreislauf & Wohlbefinden"
+      ],
+      "notiz": "Sag ihr ehrlich, wie es dir geht.",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Check beim Baby",
+      "icon": "babyface",
+      "punkte": [
+        "Gewicht & Trinken",
+        "Nabel & Haut (z. B. Gelbsucht)",
+        "Atmung & Verhalten"
+      ],
+      "notiz": "Sie wiegt dein Baby regelmäßig.",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Stillen & Füttern",
+      "icon": "cup",
+      "punkte": [
+        "Hilfe beim richtigen Anlegen",
+        "Tipps bei wunden Brustwarzen",
+        "Beratung auch zur Flasche"
+      ],
+      "notiz": "Stillprobleme? Sprich sie früh an.",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Für deine Seele",
+      "icon": "voice",
+      "punkte": [
+        "Zuhören bei Sorgen & Tränen",
+        "Baby Blues oder mehr? Sie schaut hin",
+        "Vermittelt weiter, wenn nötig"
+      ],
+      "notiz": "Auch Fragen vom Partner sind willkommen.",
+      "hinweis": "Wissen viele nicht!",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "schluss": {
+    "titel": "Noch keine <span class=\"mark yel\">Hebamme?</span>",
+    "text": "Am besten schon früh in der Schwangerschaft suchen.",
+    "tipp": "<b>Tipp:</b> Keine gefunden? Frag bei deiner Krankenkasse oder der Geburtsklinik nach.",
+    "teilen": "Schick das einer Schwangeren",
+    "quelle": "Quelle: Leistungen der gesetzlichen Krankenkassen"
+  }
+}

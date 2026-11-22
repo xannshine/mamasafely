@@ -1,0 +1,56 @@
+{
+  "thema": "Schwangerschafts-Mythen · Teil 5",
+  "kicker": "MYTHOS ODER WAHRHEIT? TEIL 5",
+  "hook": [
+    "{5} Mythen, die",
+    "fast jede",
+    "Schwangere",
+    "hört"
+  ],
+  "teaser": "Nr. 5 stimmt wirklich!",
+  "highlight": 5,
+  "karten": [
+    {
+      "titel": "„Du musst für zwei essen“",
+      "text": "erst später etwas mehr – nicht doppelt so viel",
+      "icon": "carrot",
+      "stempel": "MYTHOS",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "„Der Bauch verrät das Geschlecht“",
+      "text": "die Form hängt von Muskeln und Lage ab",
+      "icon": "babyface",
+      "stempel": "MYTHOS",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "„Kaffee ist komplett verboten“",
+      "text": "bis ca. 200 mg Koffein am Tag gelten als okay",
+      "icon": "cup",
+      "stempel": "MYTHOS",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "„Nicht die Arme über den Kopf“",
+      "text": "das schadet der Nabelschnur nicht",
+      "icon": "hand",
+      "stempel": "MYTHOS",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "„Folsäure früh nehmen“",
+      "text": "am besten schon vor der Schwangerschaft",
+      "icon": "heart",
+      "stempel": "STIMMT!",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Welchen hast du",
+    "geglaubt?"
+  ],
+  "unterzeile": "Nummer in die Kommentare:",
+  "speichern": "Speichern – für deine Schwangerschaft",
+  "zahlen_chips": true
+}

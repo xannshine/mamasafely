@@ -1,0 +1,51 @@
+{
+  "thema": "Nabelpflege",
+  "kicker": "BABYPFLEGE · ERSTE TAGE",
+  "hook": [
+    "{5} Dinge",
+    "zum",
+    "Nabel",
+    "deines Babys"
+  ],
+  "teaser": "Bei Nr. 5 aufpassen!",
+  "highlight": 5,
+  "karten": [
+    {
+      "titel": "Sauber & trocken halten",
+      "text": "das ist die wichtigste Pflege",
+      "icon": "drop",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Windel umklappen",
+      "text": "so bekommt der Nabel Luft",
+      "icon": "babyface",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Fällt von allein ab",
+      "text": "meist nach ca. 5–15 Tagen",
+      "icon": "flower",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Nicht daran ziehen",
+      "text": "auch wenn er schon locker ist",
+      "icon": "hand",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Rot, nässt oder riecht?",
+      "text": "dann Hebamme oder Kinderarzt fragen",
+      "icon": "eye",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Wann fiel er",
+    "bei euch ab?"
+  ],
+  "unterzeile": "Schreib’s in die Kommentare",
+  "speichern": "Speichern – für die ersten Tage",
+  "zahlen_chips": false
+}

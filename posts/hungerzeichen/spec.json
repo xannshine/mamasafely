@@ -1,0 +1,51 @@
+{
+  "thema": "Hat mein Baby Hunger?",
+  "kicker": "STILLEN · ERSTE WOCHEN",
+  "hook": [
+    "{5} Zeichen,",
+    "dass dein",
+    "Baby Hunger",
+    "hat"
+  ],
+  "teaser": "Nr. 5 ist schon spät!",
+  "highlight": 5,
+  "karten": [
+    {
+      "titel": "Schmatzen & Lippen lecken",
+      "text": "eins der ersten, leisen Hungerzeichen",
+      "icon": "cup",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Kopf dreht sich suchend",
+      "text": "der Suchreflex – Mund weit offen",
+      "icon": "babyface",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Händchen zum Mund",
+      "text": "es nuckelt an Faust oder Fingern",
+      "icon": "hand",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Unruhe & Strampeln",
+      "text": "es wird quengelig und zappelig",
+      "icon": "feet",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Weinen",
+      "text": "ein spätes Zeichen – erst beruhigen, dann anlegen",
+      "icon": "voice",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Welches zeigt",
+    "dein Baby?"
+  ],
+  "unterzeile": "Nummer in die Kommentare:",
+  "speichern": "Speichern – für die Stillzeit",
+  "zahlen_chips": true
+}

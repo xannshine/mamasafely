@@ -1,0 +1,51 @@
+{
+  "thema": "Warnzeichen im Wochenbett",
+  "kicker": "WOCHENBETT · WICHTIG",
+  "hook": [
+    "{5} Zeichen",
+    "im",
+    "Wochenbett",
+    "ernst nehmen"
+  ],
+  "teaser": "Nr. 5 kennen viele nicht",
+  "highlight": 5,
+  "karten": [
+    {
+      "titel": "Fieber über 38 °C",
+      "text": "dann Hebamme oder Ärztin anrufen",
+      "icon": "flame",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Plötzlich sehr starke Blutung",
+      "text": "oder große Klumpen – sofort Hilfe holen",
+      "icon": "drop",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Wochenfluss riecht übel",
+      "text": "kann auf eine Entzündung hinweisen",
+      "icon": "flower",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Rote, harte Stelle an der Brust",
+      "text": "mit Fieber – oft eine Brustentzündung",
+      "icon": "heart",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Geschwollene, schmerzende Wade",
+      "text": "kann eine Thrombose sein – abklären lassen",
+      "icon": "feet",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Schick das einer",
+    "Schwangeren!"
+  ],
+  "unterzeile": "Lieber einmal zu viel anrufen!",
+  "speichern": "Speichern – fürs Wochenbett",
+  "zahlen_chips": false
+}

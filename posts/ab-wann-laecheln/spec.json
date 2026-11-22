@@ -1,0 +1,51 @@
+{
+  "thema": "Ab wann lächelt mein Baby?",
+  "kicker": "BABYS ERSTES JAHR",
+  "hook": [
+    "Ab wann",
+    "lächelt",
+    "dein Baby?",
+    ""
+  ],
+  "teaser": "Nr. 2 ist so süß!",
+  "highlight": 2,
+  "karten": [
+    {
+      "titel": "Ab Geburt: im Schlaf",
+      "text": "das „Engelslächeln“ – noch ein Reflex",
+      "icon": "moon",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Ca. 6.–8. Woche: echtes Lächeln",
+      "text": "dein Baby lächelt dich bewusst an",
+      "icon": "babyface",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Ca. 3–4 Monate: erstes Lachen",
+      "text": "richtiges Glucksen und Quietschen",
+      "icon": "voice",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Lächle zurück!",
+      "text": "Blickkontakt und Mimik fördern das",
+      "icon": "eye",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Jedes Baby hat sein Tempo",
+      "text": "Fragen? Bei der U-Untersuchung ansprechen",
+      "icon": "heart",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Wann hat deins",
+    "gelächelt?"
+  ],
+  "unterzeile": "Schreib’s in die Kommentare",
+  "speichern": "Speichern – fürs erste Jahr",
+  "zahlen_chips": false
+}

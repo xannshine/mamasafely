@@ -1,0 +1,51 @@
+{
+  "thema": "Babys erstes Bad",
+  "kicker": "BABYPFLEGE · ERSTE WOCHEN",
+  "hook": [
+    "{5} Tipps",
+    "fürs erste",
+    "Babybad",
+    ""
+  ],
+  "teaser": "Nr. 3 ist ein Muss!",
+  "highlight": 3,
+  "karten": [
+    {
+      "titel": "1–2 Mal pro Woche reicht",
+      "text": "öfter trocknet die zarte Haut aus",
+      "icon": "drop",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Wasser ca. 37 °C",
+      "text": "mit dem Badethermometer prüfen",
+      "icon": "flame",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Nie allein lassen",
+      "text": "auch nicht kurz – Baby immer festhalten",
+      "icon": "hand",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "5–10 Minuten genügen",
+      "text": "danach gut abtrocknen, auch in den Falten",
+      "icon": "babyface",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Ohne Badezusatz",
+      "text": "in den ersten Wochen reicht klares Wasser",
+      "icon": "flower",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Badet dein Baby",
+    "gerne?"
+  ],
+  "unterzeile": "Erzähl’s uns in den Kommentaren",
+  "speichern": "Speichern – fürs erste Bad",
+  "zahlen_chips": false
+}

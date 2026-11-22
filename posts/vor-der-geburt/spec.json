@@ -1,0 +1,51 @@
+{
+  "thema": "Vor der Geburt erledigen",
+  "kicker": "SCHWANGERSCHAFT · TO-DO",
+  "hook": [
+    "{5} Dinge, die",
+    "du vor der",
+    "Geburt",
+    "erledigst"
+  ],
+  "teaser": "Nr. 1 unbedingt früh!",
+  "highlight": 1,
+  "karten": [
+    {
+      "titel": "Hebamme suchen",
+      "text": "für die Nachsorge – Plätze sind oft knapp",
+      "icon": "heart",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Kinderarzt aussuchen",
+      "text": "früh fragen, ob die Praxis neue Babys nimmt",
+      "icon": "doc",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "In der Klinik anmelden",
+      "text": "viele Kliniken wünschen das vorher",
+      "icon": "bag",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Babyschale einbauen üben",
+      "text": "vor der Heimfahrt einmal ausprobieren",
+      "icon": "carseat",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Elternzeit anmelden",
+      "text": "spätestens 7 Wochen vor Beginn beim Arbeitgeber",
+      "icon": "hand",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Was hast du",
+    "vergessen?"
+  ],
+  "unterzeile": "Nummer in die Kommentare:",
+  "speichern": "Speichern – für deine To-do-Liste",
+  "zahlen_chips": true
+}

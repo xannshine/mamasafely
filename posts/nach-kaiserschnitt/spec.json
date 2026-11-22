@@ -1,0 +1,73 @@
+{
+  "cover": {
+    "kicker": "NACH DEM KAISERSCHNITT",
+    "titel": "Das hilft dir nach dem <span class=\"mark\">Kaiserschnitt:</span>",
+    "icon": "heart",
+    "teaser": "Nr. 1 unterschätzen viele!"
+  },
+  "slides": [
+    {
+      "titel": "Früh aufstehen",
+      "icon": "feet",
+      "punkte": [
+        "Mit Hilfe, sobald es erlaubt ist",
+        "Bewegung beugt Thrombosen vor",
+        "Langsam – erst sitzen, dann stehen"
+      ],
+      "notiz": "Lass dir beim ersten Mal helfen.",
+      "hinweis": "Unterschätzen viele!",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Die Narbe",
+      "icon": "flower",
+      "punkte": [
+        "Sauber und trocken halten",
+        "Weite Hose, nichts drückt",
+        "Rot, warm oder nässt? Abklären"
+      ],
+      "notiz": "Die Hebamme schaut sie sich mit an.",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Schmerzmittel",
+      "icon": "doc",
+      "punkte": [
+        "Wie verordnet einnehmen",
+        "Viele sind stillverträglich",
+        "Schmerzfrei bewegst du dich besser"
+      ],
+      "notiz": "Frag nach, was beim Stillen passt.",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Schonen",
+      "icon": "hand",
+      "punkte": [
+        "Nichts Schweres heben",
+        "Faustregel: nicht mehr als dein Baby",
+        "Sport erst nach Absprache"
+      ],
+      "notiz": "Zum Aufstehen über die Seite rollen.",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Hilfe annehmen",
+      "icon": "babyface",
+      "punkte": [
+        "Partner übernimmt Haushalt & Tragen",
+        "Stillkissen schützt die Narbe",
+        "Besuch ruhig begrenzen"
+      ],
+      "notiz": "Dein Körper hatte eine große OP – sei geduldig.",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "schluss": {
+    "titel": "Du schaffst <span class=\"mark yel\">das!</span>",
+    "text": "Die Narbe heilt oft in wenigen Wochen – innen dauert es länger.",
+    "tipp": "<b>Tipp:</b> Ein Kissen fest auf den Bauch drücken hilft beim Husten oder Lachen.",
+    "teilen": "Schick das einer Schwangeren",
+    "quelle": "Bei Fragen: Hebamme oder Frauenärztin"
+  }
+}

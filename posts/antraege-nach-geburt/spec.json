@@ -1,0 +1,73 @@
+{
+  "cover": {
+    "kicker": "NACH DER GEBURT · PAPIERKRAM",
+    "titel": "Das musst du nach der Geburt <span class=\"mark\">beantragen:</span>",
+    "icon": "doc",
+    "teaser": "Bei Nr. 4 Frist beachten!"
+  },
+  "slides": [
+    {
+      "titel": "Geburtsurkunde",
+      "icon": "doc",
+      "punkte": [
+        "Geburt beim Standesamt anzeigen",
+        "Innerhalb von einer Woche",
+        "Das übernehmen oft die Kliniken"
+      ],
+      "notiz": "Du brauchst sie für fast alle anderen Anträge.",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Krankenkasse",
+      "icon": "heart",
+      "punkte": [
+        "Baby familienversichern",
+        "Geburtsurkunde mitschicken",
+        "Dann kommt die Versichertenkarte"
+      ],
+      "notiz": "Frag deine Kasse, welche Unterlagen sie braucht.",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Kindergeld",
+      "icon": "hand",
+      "punkte": [
+        "Antrag bei der Familienkasse",
+        "Steuer-ID des Babys nötig",
+        "Die kommt automatisch per Post"
+      ],
+      "notiz": "Der Antrag geht auch online.",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Elterngeld",
+      "icon": "babyface",
+      "punkte": [
+        "Antrag bei der Elterngeldstelle",
+        "Nur 3 Monate rückwirkend!",
+        "Früh planen, wer wann zu Hause ist"
+      ],
+      "notiz": "In vielen Bundesländern auch online möglich.",
+      "hinweis": "Frist beachten!",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Arbeitgeber",
+      "icon": "bag",
+      "punkte": [
+        "Geburtsurkunde für den Mutterschutz",
+        "Elternzeit rechtzeitig anmelden",
+        "Mutterschaftsgeld über die Kasse"
+      ],
+      "notiz": "Elternzeit spätestens 7 Wochen vor Beginn anmelden.",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "schluss": {
+    "titel": "Alles <span class=\"mark yel\">erledigt?</span>",
+    "text": "Zuerst die Geburtsurkunde – der Rest baut darauf auf.",
+    "tipp": "<b>Tipp:</b> Leg dir eine Mappe für alle Papiere an – das spart Nerven.",
+    "teilen": "Schick das frischen Eltern",
+    "quelle": "Quelle: familienportal.de · Stand 2026, ohne Gewähr"
+  }
+}

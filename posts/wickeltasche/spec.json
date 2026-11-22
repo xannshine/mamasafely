@@ -1,0 +1,73 @@
+{
+  "cover": {
+    "kicker": "UNTERWEGS MIT BABY · CHECKLISTE",
+    "titel": "Das gehört in die <span class=\"mark\">Wickeltasche:</span>",
+    "icon": "bag",
+    "teaser": "Nr. 5 vergessen viele!"
+  },
+  "slides": [
+    {
+      "titel": "Fürs Wickeln",
+      "icon": "drop",
+      "punkte": [
+        "Windeln – lieber ein paar mehr",
+        "Feuchttücher oder Waschlappen",
+        "Faltbare Wickelunterlage"
+      ],
+      "notiz": "Wundschutzcreme nicht vergessen.",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Kleidung",
+      "icon": "babyface",
+      "punkte": [
+        "Ein komplettes Wechsel-Outfit",
+        "Mütze – je nach Wetter",
+        "Spucktuch (oder zwei)"
+      ],
+      "notiz": "Ein Wechselshirt für dich schadet auch nicht.",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Essen & Trinken",
+      "icon": "cup",
+      "punkte": [
+        "Stilltuch oder Fläschchen",
+        "Portioniertes Milchpulver",
+        "Wasser und Snack für dich"
+      ],
+      "notiz": "Stillen macht unterwegs schnell durstig.",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Kleine Helfer",
+      "icon": "hand",
+      "punkte": [
+        "Beutel für volle Windeln",
+        "Desinfektion für die Hände",
+        "Schnuller, falls ihr einen nutzt"
+      ],
+      "notiz": "Ein kleines Spielzeug lenkt beim Wickeln ab.",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Wichtiges",
+      "icon": "doc",
+      "punkte": [
+        "Gelbes Heft & Versichertenkarte",
+        "Handy und Powerbank",
+        "Wichtige Telefonnummern"
+      ],
+      "notiz": "Pack alles in eine extra Innentasche.",
+      "hinweis": "Vergessen viele!",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "schluss": {
+    "titel": "Was fehlt <span class=\"mark yel\">noch?</span>",
+    "text": "Nach jedem Ausflug direkt wieder auffüllen.",
+    "tipp": "<b>Tipp:</b> Eine Ersatzwindel und Tücher zusätzlich im Auto lagern – das rettet so manchen Tag.",
+    "teilen": "Schick das einer Schwangeren",
+    "quelle": ""
+  }
+}

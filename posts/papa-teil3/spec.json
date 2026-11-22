@@ -1,0 +1,52 @@
+{
+  "thema": "Für Papas · Teil 3",
+  "kicker": "FÜR PAPAS · TEIL 3",
+  "hook": [
+    "{5} Dinge,",
+    "die Papas",
+    "unterschätzen",
+    ""
+  ],
+  "teaser": "Nr. 3 sagt dir keiner",
+  "highlight": 3,
+  "karten": [
+    {
+      "titel": "Papa kann genauso trösten",
+      "text": "Tragen und deine tiefe Stimme beruhigen",
+      "icon": "voice",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Wickeln & Baden übernehmen",
+      "text": "so wachst ihr zusammen",
+      "icon": "babyface",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Auch Papas bekommen Blues",
+      "text": "auch Väter können eine Wochenbettdepression bekommen",
+      "icon": "heart",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Partnermonate nutzen",
+      "text": "Elterngeld gibt’s länger, wenn beide pausieren",
+      "icon": "hand",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Besuch managen",
+      "text": "du entscheidest mit, wer wann kommt",
+      "icon": "flower",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Schick das",
+    "dem Papa!"
+  ],
+  "unterzeile": "Welcher Punkt passt bei euch?",
+  "speichern": "Speichern – für euch beide",
+  "zahlen_chips": true,
+  "mark_groesse": 100
+}

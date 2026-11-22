@@ -1,0 +1,51 @@
+{
+  "thema": "Wenn das Baby schreit",
+  "kicker": "BABY BERUHIGEN",
+  "hook": [
+    "{5} Dinge, die",
+    "helfen, wenn",
+    "dein Baby",
+    "schreit"
+  ],
+  "teaser": "Nr. 5 ist am wichtigsten",
+  "highlight": 5,
+  "karten": [
+    {
+      "titel": "Hunger, Windel, Wärme?",
+      "text": "erst die Grundbedürfnisse checken",
+      "icon": "cup",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Nah am Körper tragen",
+      "text": "Wärme und Herzschlag beruhigen",
+      "icon": "heart",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Sanft wiegen",
+      "text": "ruhige, gleichmäßige Bewegungen",
+      "icon": "moon",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Leises „Schhh“",
+      "text": "gleichmäßiges Rauschen erinnert an den Bauch",
+      "icon": "voice",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Nie schütteln – Pause machen",
+      "text": "Baby sicher ablegen, rausgehen, durchatmen",
+      "icon": "hand",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Was hilft",
+    "bei euch?"
+  ],
+  "unterzeile": "Nummer in die Kommentare:",
+  "speichern": "Speichern – für harte Nächte",
+  "zahlen_chips": true
+}

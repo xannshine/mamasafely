@@ -1,0 +1,73 @@
+{
+  "cover": {
+    "kicker": "SICHER IM AUTO · ZUM SPEICHERN",
+    "titel": "So fährt dein Baby <span class=\"mark\">sicher mit:</span>",
+    "icon": "carseat",
+    "teaser": "Nr. 3 machen viele falsch!"
+  },
+  "slides": [
+    {
+      "titel": "Richtig herum",
+      "icon": "carseat",
+      "punkte": [
+        "Babyschale gegen die Fahrtrichtung",
+        "Am sichersten auf der Rückbank",
+        "Fest eingebaut, nichts wackelt"
+      ],
+      "notiz": "Bei Isofix auf die grüne Anzeige achten.",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Beifahrersitz?",
+      "icon": "eye",
+      "punkte": [
+        "Nur mit ausgeschaltetem Airbag",
+        "Airbag-Anzeige vor jeder Fahrt prüfen",
+        "Sonst lieber hinten"
+      ],
+      "notiz": "Ein aktiver Airbag ist für Babyschalen lebensgefährlich.",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Gurte eng",
+      "icon": "hand",
+      "punkte": [
+        "Höchstens eine flache Hand Platz",
+        "Gurte auf Schulterhöhe einstellen",
+        "Keine dicke Jacke unter dem Gurt"
+      ],
+      "notiz": "Lieber eine Decke über den Gurt legen.",
+      "hinweis": "Häufiger Fehler!",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Pausen machen",
+      "icon": "moon",
+      "punkte": [
+        "Bei langen Fahrten regelmäßig halten",
+        "Baby zwischendurch rausnehmen",
+        "Atmung & Wärme im Blick behalten"
+      ],
+      "notiz": "Die Babyschale ist kein Schlafplatz für zu Hause.",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Einbau üben",
+      "icon": "babyface",
+      "punkte": [
+        "Vor der Geburt einmal einbauen",
+        "Anleitung im Auto aufbewahren",
+        "Bei Unsicherheit beraten lassen"
+      ],
+      "notiz": "Viele Fachhändler zeigen dir den Einbau.",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "schluss": {
+    "titel": "Alles <span class=\"mark yel\">gecheckt?</span>",
+    "text": "Die Babyschale muss zu Größe und Gewicht deines Babys passen.",
+    "tipp": "<b>Tipp:</b> Achte auf die Norm i-Size (R129) – und kauf gebraucht nur unfallfrei.",
+    "teilen": "Schick das werdenden Eltern",
+    "quelle": ""
+  }
+}

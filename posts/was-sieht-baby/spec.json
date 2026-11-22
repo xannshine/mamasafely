@@ -1,0 +1,51 @@
+{
+  "thema": "Was sieht mein Baby?",
+  "kicker": "BABYS ERSTES JAHR",
+  "hook": [
+    "Was sieht",
+    "dein Baby",
+    "wirklich?",
+    ""
+  ],
+  "teaser": "Nr. 5 kennen wenige",
+  "highlight": 5,
+  "karten": [
+    {
+      "titel": "Ab Geburt: ca. 20–30 cm scharf",
+      "text": "genau bis zu deinem Gesicht",
+      "icon": "eye",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Starke Kontraste",
+      "text": "Schwarz-Weiß fällt am meisten auf",
+      "icon": "flower",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Ca. 2–3 Monate: folgt mit Blick",
+      "text": "es verfolgt Gesichter und Spielzeug",
+      "icon": "babyface",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Ca. 4 Monate: mehr Farben",
+      "text": "jetzt sieht es Farben deutlich besser",
+      "icon": "heart",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Schielen am Anfang?",
+      "text": "gelegentlich normal – ständig? Kinderarzt fragen",
+      "icon": "eye",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Erkennt es",
+    "dich schon?"
+  ],
+  "unterzeile": "Schreib’s in die Kommentare",
+  "speichern": "Speichern – fürs erste Jahr",
+  "zahlen_chips": false
+}

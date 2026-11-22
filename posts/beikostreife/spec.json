@@ -1,0 +1,52 @@
+{
+  "thema": "Bereit für Brei?",
+  "kicker": "BABYS ERSTES JAHR · BEIKOST",
+  "hook": [
+    "{5} Zeichen",
+    "für die",
+    "Beikostreife",
+    ""
+  ],
+  "teaser": "Nr. 3 ist entscheidend",
+  "highlight": 3,
+  "karten": [
+    {
+      "titel": "Frühestens ab dem 5. Monat",
+      "text": "spätestens zu Beginn des 7. Monats",
+      "icon": "babyface",
+      "farbe": "#A8D8F0"
+    },
+    {
+      "titel": "Hält den Kopf sicher",
+      "text": "und sitzt mit etwas Unterstützung",
+      "icon": "heart",
+      "farbe": "#FDE68A"
+    },
+    {
+      "titel": "Zeigt Interesse am Essen",
+      "text": "guckt mit, greift zu, öffnet den Mund",
+      "icon": "eye",
+      "farbe": "#FFCBA4"
+    },
+    {
+      "titel": "Schiebt Brei nicht mehr raus",
+      "text": "der Zungenstoß-Reflex lässt nach",
+      "icon": "carrot",
+      "farbe": "#A8E6CF"
+    },
+    {
+      "titel": "Hand zum Mund klappt",
+      "text": "es führt Dinge gezielt zum Mund",
+      "icon": "hand",
+      "farbe": "#D4A5E8"
+    }
+  ],
+  "frage": [
+    "Wann gab’s den",
+    "ersten Brei?"
+  ],
+  "unterzeile": "Schreib’s in die Kommentare",
+  "speichern": "Speichern – für später",
+  "zahlen_chips": false,
+  "mark_groesse": 100
+}
