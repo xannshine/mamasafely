@@ -1,0 +1,18 @@
+{
+  "thema": "Wird mein Baby satt?",
+  "kicker": "STILLEN · ERSTE WOCHEN",
+  "hook": ["{5} Zeichen,", "dass dein", "Baby satt", "wird"],
+  "teaser": "Nr. 2 checkst du täglich",
+  "highlight": 2,
+  "karten": [
+    {"titel": "8–12 Mahlzeiten am Tag", "text": "in 24 Stunden – auch nachts ist das normal", "farbe": "#A8D8F0", "icon": "moon"},
+    {"titel": "Schwere nasse Windeln", "text": "ab ca. Tag 5: mind. 5–6 pro Tag", "farbe": "#FDE68A", "icon": "drop"},
+    {"titel": "Du hörst es schlucken", "text": "ruhig und rhythmisch beim Trinken", "farbe": "#FFCBA4", "icon": "voice"},
+    {"titel": "Entspannt nach dem Trinken", "text": "lockere Händchen, zufriedenes Gesicht", "farbe": "#A8E6CF", "icon": "hand"},
+    {"titel": "Gewicht wieder aufgeholt", "text": "Geburtsgewicht meist nach 10–14 Tagen", "farbe": "#D4A5E8", "icon": "babyface"}
+  ],
+  "frage": ["Schick das einer", "neuen Mama!"],
+  "unterzeile": "Was hat dir am meisten geholfen?",
+  "speichern": "Speichern – für die Stillzeit",
+  "zahlen_chips": false
+}
