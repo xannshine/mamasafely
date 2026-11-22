@@ -1,0 +1,51 @@
+{
+  "thema": "5 Dinge für Papas",
+  "kicker": "FÜR PAPAS",
+  "hook": [
+    "{5} Dinge, die",
+    "jeder Papa",
+    "jetzt",
+    "tun kann"
+  ],
+  "teaser": "Nr. 5 lieben alle Mamas",
+  "highlight": 5,
+  "karten": [
+    {
+      "titel": "Mit dem Bauch reden",
+      "text": "ab ca. der 24. SSW kann dein Baby dich hören",
+      "farbe": "#A8D8F0",
+      "icon": "voice"
+    },
+    {
+      "titel": "Die Kliniktasche kennen",
+      "text": "damit du weißt, wo alles ist, wenn’s losgeht",
+      "farbe": "#FDE68A",
+      "icon": "hand"
+    },
+    {
+      "titel": "Nachts mit aufstehen",
+      "text": "wickeln und das Baby zum Stillen bringen",
+      "farbe": "#FFCBA4",
+      "icon": "moon"
+    },
+    {
+      "titel": "Haut an Haut kuscheln",
+      "text": "das beruhigt dein Baby und stärkt eure Bindung",
+      "farbe": "#A8E6CF",
+      "icon": "babyface"
+    },
+    {
+      "titel": "Ihr den Rücken freihalten",
+      "text": "Haushalt & Besuch übernehmen – Wochenbett heißt Ruhe",
+      "farbe": "#D4A5E8",
+      "icon": "cup"
+    }
+  ],
+  "frage": [
+    "Schick das",
+    "dem Papa!"
+  ],
+  "unterzeile": "Welche Nummer macht er schon?",
+  "speichern": "Speichern – für euch beide",
+  "zahlen_chips": true
+}

@@ -1,0 +1,353 @@
+<template>
+  <div
+    id="root"
+    data-composition-id="fact"
+    data-width="1080"
+    data-height="1920"
+    data-composition-variables='[
+      {"id":"num","type":"string","label":"Nummer","default":"1"},
+      {"id":"title","type":"string","label":"Fakt (kurz)","default":"Es hört deine Stimme","maxLength":28},
+      {"id":"sub","type":"string","label":"Zusatzzeile","default":"ab ca. der 24. SSW","maxLength":60},
+      {"id":"accent","type":"color","label":"Akzentfarbe","default":"#A8D8F0"},
+      {"id":"icon","type":"enum","label":"Illustration","default":"voice","options":[
+        {"value":"voice","label":"Stimme"},{"value":"pacifier","label":"Schnuller"},
+        {"value":"carrot","label":"Karotte"},{"value":"hiccup","label":"Schluckauf"},{"value":"eye","label":"Auge"},
+        {"value":"hand","label":"Hand"},{"value":"flower","label":"Blume"},{"value":"feet","label":"Füßchen"},
+        {"value":"babyface","label":"Babygesicht"},{"value":"flame","label":"Flamme"},{"value":"cup","label":"Tasse"},{"value":"moon","label":"Mond"},{"value":"drop","label":"Tropfen"},{"value":"heart","label":"Herz"},{"value":"doc","label":"Dokument"},{"value":"carseat","label":"Babyschale"},{"value":"plug","label":"Ladekabel"},{"value":"bag","label":"Tasche"}]},
+      {"id":"dur","type":"number","label":"Dauer (s, wie data-duration)","default":3.2,"min":2,"max":8},
+      {"id":"stamp","type":"string","label":"Stempel (leer = keiner)","default":"","maxLength":14}
+    ]'
+  >
+    <style>
+      @font-face { font-family: "Fredoka"; font-weight: 600; src: url("assets/fonts/fredoka-latin-600-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Fredoka"; font-weight: 700; src: url("assets/fonts/fredoka-latin-700-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Quicksand"; font-weight: 600; src: url("assets/fonts/quicksand-latin-600-normal.woff2") format("woff2"); }
+      #root {
+        position: absolute;
+        inset: 0;
+        color: #2d2d2d;
+        --accent: #a8d8f0;
+      }
+      #root .fc-card {
+        position: absolute;
+        left: 70px;
+        top: 440px;
+        width: 860px;
+        height: 860px;
+        background: #ffffff;
+        border: 5px solid #2d2d2d;
+        border-radius: 40px;
+        box-shadow: 12px 12px 0 #2d2d2d;
+      }
+      #root .fc-art {
+        position: absolute;
+        left: 50%;
+        top: 70px;
+        width: 400px;
+        height: 400px;
+        margin-left: -200px;
+        border-radius: 50%;
+        background: var(--accent);
+        border: 5px solid #2d2d2d;
+      }
+      #root .fc-art svg {
+        position: absolute;
+        left: 40px;
+        top: 40px;
+        width: 310px;
+        height: 310px;
+        display: none;
+      }
+      #root .fc-text {
+        position: absolute;
+        left: 50px;
+        right: 50px;
+        top: 486px;
+        bottom: 34px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        text-align: center;
+      }
+      #root .fc-title {
+        font-family: "Fredoka", sans-serif;
+        font-weight: 700;
+        font-size: 86px;
+        line-height: 1.04;
+      }
+      #root .fc-title.is-long {
+        font-size: 68px;
+      }
+      #root .fc-sub {
+        padding: 0 20px;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 1.22;
+        color: #4a4a4a;
+      }
+      #root .fc-stamp {
+        position: absolute;
+        right: 36px;
+        top: 70px;
+        padding: 10px 26px 14px;
+        border: 5px solid #2d2d2d;
+        border-radius: 18px;
+        box-shadow: 6px 6px 0 #2d2d2d;
+        background: #f8635f;
+        color: #ffffff;
+        font-family: "Fredoka", sans-serif;
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: 0.04em;
+        text-shadow: 3px 3px 0 #2d2d2d;
+        display: none;
+      }
+      #root .fc-stamp.is-true {
+        background: #23935a;
+      }
+      #root .fc-badge {
+        position: absolute;
+        left: 40px;
+        top: 370px;
+        width: 168px;
+        height: 168px;
+        border-radius: 50%;
+        background: #f8635f;
+        border: 5px solid #2d2d2d;
+        box-shadow: 7px 7px 0 #2d2d2d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Fredoka", sans-serif;
+        font-weight: 700;
+        font-size: 104px;
+        color: #ffffff;
+        text-shadow: 4px 4px 0 #2d2d2d;
+      }
+    </style>
+
+    <div id="fc-cardwrap" class="clip" data-start="0" data-duration="8">
+      <div class="fc-card" id="fc-card">
+        <div class="fc-art" id="fc-art">
+          <!-- Stimme: Herz mit Schallwellen -->
+          <svg class="fc-icon" data-icon="voice" viewBox="0 0 310 310">
+            <path d="M155 236 C96 196 80 162 96 138 C112 116 140 120 155 146 C170 120 198 116 214 138 C230 162 214 196 155 236 Z" fill="#F7C8D4" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round" />
+            <g class="fc-waves" fill="none" stroke="#2D2D2D" stroke-width="9" stroke-linecap="round">
+              <path d="M60 130 Q40 165 60 200" /><path d="M30 110 Q0 165 30 220" />
+              <path d="M250 130 Q270 165 250 200" /><path d="M280 110 Q310 165 280 220" />
+            </g>
+          </svg>
+          <!-- Schnuller -->
+          <svg class="fc-icon" data-icon="pacifier" viewBox="0 0 310 310">
+            <path d="M125 120 C120 60 135 40 155 40 C175 40 190 60 185 120 Z" fill="#FFCBA4" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round" />
+            <ellipse cx="155" cy="150" rx="115" ry="48" fill="#F7C8D4" stroke="#2D2D2D" stroke-width="9" />
+            <circle cx="100" cy="150" r="9" fill="#2D2D2D" /><circle cx="210" cy="150" r="9" fill="#2D2D2D" />
+            <circle cx="155" cy="242" r="50" fill="none" stroke="#2D2D2D" stroke-width="22" />
+            <circle cx="155" cy="242" r="50" fill="none" stroke="#FDE68A" stroke-width="9" />
+          </svg>
+          <!-- Karotte -->
+          <svg class="fc-icon" data-icon="carrot" viewBox="0 0 310 310">
+            <g fill="#A8E6CF" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round">
+              <path d="M200 100 C190 50 210 25 235 20 C240 50 230 80 212 108 Z" />
+              <path d="M212 108 C250 80 285 85 295 100 C270 120 240 125 218 118 Z" />
+            </g>
+            <path d="M205 100 C235 120 235 150 215 170 L80 290 C66 300 52 288 60 274 L160 115 C175 95 190 92 205 100 Z" fill="#F8935F" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round" />
+            <g stroke="#2D2D2D" stroke-width="8" stroke-linecap="round">
+              <path d="M150 150 L172 166" /><path d="M120 200 L140 214" /><path d="M95 242 L110 252" />
+            </g>
+          </svg>
+          <!-- Schluckauf -->
+          <svg class="fc-icon" data-icon="hiccup" viewBox="0 0 310 310">
+            <path d="M40 70 H270 Q290 70 290 90 V190 Q290 210 270 210 H140 L90 255 L100 210 H40 Q20 210 20 190 V90 Q20 70 40 70 Z" fill="#FFFFFF" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round" />
+            <text x="155" y="168" text-anchor="middle" font-family="Fredoka" font-weight="700" font-size="74" fill="#2D2D2D">hicks!</text>
+            <circle class="fc-bub" cx="250" cy="262" r="16" fill="#FFFFFF" stroke="#2D2D2D" stroke-width="7" />
+            <circle class="fc-bub" cx="285" cy="236" r="10" fill="#FFFFFF" stroke="#2D2D2D" stroke-width="6" />
+          </svg>
+          <!-- Auge -->
+          <svg class="fc-icon" data-icon="eye" viewBox="0 0 310 310">
+            <g class="fc-lid">
+              <path d="M20 160 Q155 40 290 160 Q155 280 20 160 Z" fill="#FFFFFF" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round" />
+              <circle cx="155" cy="160" r="58" fill="#A8D8F0" stroke="#2D2D2D" stroke-width="9" />
+              <circle cx="155" cy="160" r="26" fill="#2D2D2D" />
+              <circle cx="170" cy="145" r="10" fill="#FFFFFF" />
+            </g>
+            <g stroke="#2D2D2D" stroke-width="9" stroke-linecap="round">
+              <path d="M80 92 L66 62" /><path d="M155 72 L155 38" /><path d="M230 92 L244 62" />
+            </g>
+          </svg>
+          <!-- Babyhand -->
+          <svg class="fc-icon" data-icon="hand" viewBox="0 0 310 310">
+            <g stroke="#2D2D2D" stroke-width="18" fill="#2D2D2D">
+              <ellipse cx="160" cy="205" rx="72" ry="66" />
+              <rect x="98" y="72" width="36" height="120" rx="18" /><rect x="140" y="48" width="36" height="140" rx="18" />
+              <rect x="182" y="62" width="36" height="130" rx="18" /><rect x="222" y="98" width="32" height="100" rx="16" />
+              <rect x="40" y="160" width="100" height="38" rx="19" transform="rotate(38 90 179)" />
+            </g>
+            <g fill="#FFCBA4">
+              <ellipse cx="160" cy="205" rx="72" ry="66" />
+              <rect x="98" y="72" width="36" height="120" rx="18" /><rect x="140" y="48" width="36" height="140" rx="18" />
+              <rect x="182" y="62" width="36" height="130" rx="18" /><rect x="222" y="98" width="32" height="100" rx="16" />
+              <rect x="40" y="160" width="100" height="38" rx="19" transform="rotate(38 90 179)" />
+            </g>
+            <path d="M130 225 Q160 245 192 225" fill="none" stroke="#2D2D2D" stroke-width="7" stroke-linecap="round" />
+            <ellipse cx="120" cy="215" rx="14" ry="9" fill="#F7C8D4" /><ellipse cx="200" cy="215" rx="14" ry="9" fill="#F7C8D4" />
+          </svg>
+          <!-- Blume / Geruch -->
+          <svg class="fc-icon" data-icon="flower" viewBox="0 0 310 310">
+            <path d="M155 200 Q150 250 165 295" fill="none" stroke="#2D2D2D" stroke-width="9" stroke-linecap="round" />
+            <g fill="#FFFFFF" stroke="#2D2D2D" stroke-width="8">
+              <circle cx="155" cy="95" r="42" /><circle cx="210" cy="135" r="42" /><circle cx="190" cy="198" r="42" />
+              <circle cx="120" cy="198" r="42" /><circle cx="100" cy="135" r="42" />
+            </g>
+            <circle cx="155" cy="152" r="38" fill="#FDE68A" stroke="#2D2D2D" stroke-width="8" />
+            <g class="fc-waves" fill="none" stroke="#2D2D2D" stroke-width="7" stroke-linecap="round">
+              <path d="M40 60 Q55 40 40 20" /><path d="M270 60 Q255 40 270 20" />
+            </g>
+          </svg>
+          <!-- Füßchen -->
+          <svg class="fc-icon" data-icon="feet" viewBox="0 0 310 310">
+            <g fill="#FFFFFF" stroke="#2D2D2D" stroke-width="8" transform="translate(-31 -25) scale(1.2)">
+              <ellipse cx="105" cy="190" rx="44" ry="72" />
+              <circle cx="78" cy="98" r="14" /><circle cx="100" cy="88" r="12" /><circle cx="120" cy="92" r="11" /><circle cx="136" cy="104" r="10" /><circle cx="147" cy="122" r="9" />
+              <ellipse cx="205" cy="160" rx="44" ry="72" />
+              <circle cx="232" cy="68" r="14" /><circle cx="210" cy="58" r="12" /><circle cx="190" cy="62" r="11" /><circle cx="174" cy="74" r="10" /><circle cx="163" cy="92" r="9" />
+            </g>
+          </svg>
+          <!-- Babygesicht -->
+          <svg class="fc-icon" data-icon="babyface" viewBox="0 0 310 310">
+            <circle cx="155" cy="165" r="120" fill="#FFCBA4" stroke="#2D2D2D" stroke-width="9" />
+            <path d="M140 50 C128 20 175 14 172 40 C170 56 150 54 154 42" fill="none" stroke="#2D2D2D" stroke-width="9" stroke-linecap="round" />
+            <path d="M95 155 Q112 138 129 155" fill="none" stroke="#2D2D2D" stroke-width="9" stroke-linecap="round" />
+            <path d="M181 155 Q198 138 215 155" fill="none" stroke="#2D2D2D" stroke-width="9" stroke-linecap="round" />
+            <ellipse cx="85" cy="195" rx="22" ry="14" fill="#F7C8D4" /><ellipse cx="225" cy="195" rx="22" ry="14" fill="#F7C8D4" />
+            <path d="M135 210 Q155 230 175 210" fill="none" stroke="#2D2D2D" stroke-width="9" stroke-linecap="round" />
+          </svg>
+          <!-- Flamme (Sodbrennen) -->
+          <svg class="fc-icon" data-icon="flame" viewBox="0 0 310 310">
+            <path d="M155 290 C85 290 55 240 65 185 C75 135 120 120 115 60 C160 85 175 120 170 150 C185 140 195 125 195 105 C235 140 255 180 248 220 C240 265 205 290 155 290 Z" fill="#F8935F" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round" />
+            <path d="M155 285 C120 285 105 260 110 235 C115 210 140 200 140 175 C165 190 175 205 172 225 C182 220 188 210 190 200 C205 220 210 240 205 255 C198 275 180 285 155 285 Z" fill="#FDE68A" stroke="#2D2D2D" stroke-width="8" stroke-linejoin="round" />
+          </svg>
+          <!-- Kaffeetasse -->
+          <svg class="fc-icon" data-icon="cup" viewBox="0 0 310 310">
+            <g class="fc-waves" fill="none" stroke="#2D2D2D" stroke-width="8" stroke-linecap="round">
+              <path d="M110 90 Q95 70 110 50 Q125 30 110 10" /><path d="M150 90 Q135 70 150 50 Q165 30 150 10" /><path d="M190 90 Q175 70 190 50 Q205 30 190 10" />
+            </g>
+            <path d="M232 150 C285 150 285 225 228 222" fill="none" stroke="#2D2D2D" stroke-width="22" stroke-linecap="round" />
+            <path d="M232 150 C285 150 285 225 228 222" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" />
+            <path d="M60 115 H245 V200 Q245 270 175 270 H130 Q60 270 60 200 Z" fill="#FFFFFF" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round" />
+            <path d="M120 175 C120 160 140 155 152 172 C164 155 184 160 184 175 C184 195 152 212 152 212 C152 212 120 195 120 175 Z" fill="#F7C8D4" stroke="#2D2D2D" stroke-width="6" stroke-linejoin="round" />
+            <ellipse cx="155" cy="290" rx="110" ry="12" fill="#2D2D2D" opacity="0.15" />
+          </svg>
+          <!-- Mond -->
+          <svg class="fc-icon" data-icon="moon" viewBox="0 0 310 310">
+            <path d="M190 40 A125 125 0 1 0 280 215 A100 100 0 1 1 190 40 Z" fill="#FDE68A" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round" />
+            <g class="fc-waves" fill="#2D2D2D" font-family="Fredoka" font-weight="700">
+              <text x="215" y="95" font-size="48">z</text><text x="245" y="60" font-size="36">z</text><text x="270" y="32" font-size="26">z</text>
+            </g>
+          </svg>
+          <!-- Tropfen -->
+          <svg class="fc-icon" data-icon="drop" viewBox="0 0 310 310">
+            <path d="M155 25 C155 25 65 140 65 195 A90 90 0 0 0 245 195 C245 140 155 25 155 25 Z" fill="#FFFFFF" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round" />
+            <path d="M110 190 Q110 160 128 140" fill="none" stroke="#A8D8F0" stroke-width="14" stroke-linecap="round" />
+            <path d="M125 225 Q155 245 185 225" fill="none" stroke="#2D2D2D" stroke-width="8" stroke-linecap="round" />
+            <circle cx="125" cy="200" r="7" fill="#2D2D2D" /><circle cx="185" cy="200" r="7" fill="#2D2D2D" />
+          </svg>
+          <!-- Herz mit Herzschlag -->
+          <svg class="fc-icon" data-icon="heart" viewBox="0 0 310 310">
+            <path d="M155 275 C70 215 30 165 45 115 C60 65 125 55 155 105 C185 55 250 65 265 115 C280 165 240 215 155 275 Z" fill="#F8635F" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round" />
+            <path class="fc-pulse" d="M70 160 H120 L138 125 L160 200 L178 150 H240" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M95 115 Q105 92 128 92" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" opacity="0.7" />
+          </svg>
+          <svg class="fc-icon" data-icon="doc" viewBox="0 0 310 310"><rect x="70" y="30" width="170" height="240" rx="18" fill="#FFFFFF" stroke="#2D2D2D" stroke-width="9"/><path d="M155 120 C125 98 112 80 122 66 C132 52 150 56 155 72 C160 56 178 52 188 66 C198 80 185 98 155 120 Z" fill="#F8635F" stroke="#2D2D2D" stroke-width="6" stroke-linejoin="round"/><g stroke="#2D2D2D" stroke-width="8" stroke-linecap="round"><path d="M100 160 H210"/><path d="M100 192 H210"/><path d="M100 224 H170"/></g></svg>
+          <svg class="fc-icon" data-icon="carseat" viewBox="0 0 310 310"><path d="M55 165 A100 100 0 0 1 255 165" fill="none" stroke="#2D2D2D" stroke-width="22" stroke-linecap="round"/><path d="M55 165 A100 100 0 0 1 255 165" fill="none" stroke="#FDE68A" stroke-width="9" stroke-linecap="round"/><path d="M40 170 Q40 275 155 275 Q270 275 270 185 L228 165 Q205 225 155 225 Q105 225 92 165 Z" fill="#F7C8D4" stroke="#2D2D2D" stroke-width="9" stroke-linejoin="round"/><circle cx="160" cy="175" r="42" fill="#FFCBA4" stroke="#2D2D2D" stroke-width="8"/><path d="M142 172 Q150 164 158 172" fill="none" stroke="#2D2D2D" stroke-width="6" stroke-linecap="round"/><path d="M164 172 Q172 164 180 172" fill="none" stroke="#2D2D2D" stroke-width="6" stroke-linecap="round"/></svg>
+          <svg class="fc-icon" data-icon="plug" viewBox="0 0 310 310"><path d="M155 200 C155 260 90 250 70 290" fill="none" stroke="#2D2D2D" stroke-width="12" stroke-linecap="round"/><rect x="100" y="90" width="110" height="115" rx="26" fill="#FFFFFF" stroke="#2D2D2D" stroke-width="9"/><g stroke="#2D2D2D" stroke-width="14" stroke-linecap="round"><path d="M128 90 V45"/><path d="M182 90 V45"/></g><path d="M160 120 L140 152 H164 L148 182" fill="none" stroke="#F8635F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="fc-icon" data-icon="bag" viewBox="0 0 310 310"><path d="M110 95 Q110 45 155 45 Q200 45 200 95" fill="none" stroke="#2D2D2D" stroke-width="14" stroke-linecap="round"/><rect x="40" y="90" width="230" height="185" rx="34" fill="#F7C8D4" stroke="#2D2D2D" stroke-width="9"/><path d="M40 150 H270" stroke="#2D2D2D" stroke-width="8"/><rect x="128" y="135" width="54" height="34" rx="10" fill="#FDE68A" stroke="#2D2D2D" stroke-width="7"/><path d="M155 245 C130 228 120 214 128 203 C136 192 150 196 155 208 C160 196 174 192 182 203 C190 214 180 228 155 245 Z" fill="#F8635F" stroke="#2D2D2D" stroke-width="6" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="fc-stamp" id="fc-stamp"></div>
+        <div class="fc-text">
+          <div class="fc-title" id="fc-title" data-var-text="title">Es hört deine Stimme</div>
+          <div class="fc-sub" id="fc-sub" data-var-text="sub">ab ca. der 24. SSW</div>
+        </div>
+      </div>
+      <div class="fc-badge" id="fc-badge" data-var-text="num">1</div>
+    </div>
+
+    <script>
+      (function () {
+        var root = document.getElementById("root");
+        var vars =
+          window.__hyperframes && window.__hyperframes.getVariables
+            ? window.__hyperframes.getVariables()
+            : {};
+        var icon = vars.icon || "voice";
+        if (vars.accent) root.style.setProperty("--accent", vars.accent);
+        var icons = root.querySelectorAll(".fc-icon");
+        var active = null;
+        for (var i = 0; i < icons.length; i++) {
+          if (icons[i].getAttribute("data-icon") === icon) {
+            icons[i].style.display = "block";
+            active = icons[i];
+          }
+        }
+
+        var card = root.querySelector("#fc-card");
+        if (vars.title) {
+          root.querySelector("#fc-title").textContent = vars.title;
+          if (vars.title.length > 24) root.querySelector("#fc-title").classList.add("is-long");
+        }
+        if (vars.sub) root.querySelector("#fc-sub").textContent = vars.sub;
+        if (vars.num) root.querySelector("#fc-badge").textContent = vars.num;
+        if (vars.accent) root.querySelector("#fc-art").style.backgroundColor = vars.accent;
+        var badge = root.querySelector("#fc-badge");
+        var art = root.querySelector("#fc-art");
+        var title = root.querySelector("#fc-title");
+        var sub = root.querySelector("#fc-sub");
+
+        var stamp = root.querySelector("#fc-stamp");
+        if (vars.stamp) {
+          stamp.textContent = vars.stamp;
+          stamp.style.display = "block";
+          if (/STIMMT|WAHR/i.test(vars.stamp)) stamp.classList.add("is-true");
+        }
+
+        var tl = gsap.timeline({ paused: true });
+        var side = (parseInt(vars.num || "1", 10) % 2) ? -1 : 1;
+        tl.fromTo(card, { x: 260 * side, y: 40, rotation: 6 * side, scale: 0.86, opacity: 0 }, { x: 0, y: 0, rotation: 0, scale: 1, opacity: 1, duration: 0.3, ease: "back.out(1.7)" }, 0);
+        tl.fromTo(badge, { scale: 0, rotation: -30 }, { scale: 1, rotation: -6, duration: 0.3, ease: "back.out(2.8)" }, 0.06);
+        tl.fromTo(art, { scale: 0.5 }, { scale: 1, duration: 0.36, ease: "back.out(2.6)" }, 0.1);
+        tl.fromTo(title, { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.22, ease: "power3.out" }, 0.14);
+        tl.fromTo(sub, { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.22, ease: "power3.out" }, 0.28);
+
+        if (active) {
+          tl.fromTo(active, { rotation: -5, transformOrigin: "50% 50%" }, { rotation: 5, duration: 0.3, ease: "sine.inOut", yoyo: true, repeat: 5 }, 0.45);
+          var lid = active.querySelector(".fc-lid");
+          if (lid) {
+            tl.fromTo(lid, { scaleY: 0.08, transformOrigin: "50% 52%" }, { scaleY: 1, duration: 0.3, ease: "back.out(2)" }, 0.4);
+          }
+          var waves = active.querySelectorAll(".fc-waves path");
+          if (waves.length) {
+            tl.fromTo(waves, { opacity: 0.15 }, { opacity: 1, duration: 0.25, stagger: 0.06, yoyo: true, repeat: 3 }, 0.4);
+          }
+          var bubs = active.querySelectorAll(".fc-bub");
+          if (bubs.length) {
+            tl.fromTo(bubs, { y: 0 }, { y: -20, duration: 0.2, ease: "power2.out", yoyo: true, repeat: 5, stagger: 0.1 }, 0.4);
+          }
+        }
+
+        if (vars.stamp) {
+          tl.fromTo(stamp, { scale: 2.4, opacity: 0, rotation: 14 }, { scale: 1, opacity: 1, rotation: 10, duration: 0.22, ease: "power4.in" }, 0.55);
+          tl.fromTo(card, { x: 0 }, { x: 10, duration: 0.05, yoyo: true, repeat: 3, immediateRender: false }, 0.77);
+        }
+        tl.fromTo(badge, { scale: 1 }, { scale: 1.12, duration: 0.22, ease: "sine.inOut", yoyo: true, repeat: 1, immediateRender: false }, 1.0);
+        // exit
+        var dur = Number(vars.dur) || 3.2;
+        tl.to([card, badge], { opacity: 0, y: -40, scale: 0.92, duration: 0.15, ease: "power2.in" }, dur - 0.17);
+        tl.set({}, {}, dur);
+        window.__timelines["fact"] = tl;
+      })();
+    </script>
+  </div>
+</template>

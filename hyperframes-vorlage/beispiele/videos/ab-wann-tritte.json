@@ -1,0 +1,51 @@
+{
+  "thema": "Ab wann spürst du dein Baby?",
+  "kicker": "SCHWANGERSCHAFT · WOCHE FÜR WOCHE",
+  "hook": [
+    "Ab wann",
+    "spürst du",
+    "dein Baby?",
+    ""
+  ],
+  "teaser": "Nr. 5 musst du kennen!",
+  "highlight": 5,
+  "karten": [
+    {
+      "titel": "16.–18. SSW: beim 2. Kind",
+      "text": "wer schon ein Kind hat, erkennt das Gefühl oft früher",
+      "farbe": "#A8D8F0",
+      "icon": "babyface"
+    },
+    {
+      "titel": "18.–20. SSW: erstes Flattern",
+      "text": "beim 1. Kind – fühlt sich an wie Blubbern im Bauch",
+      "farbe": "#FDE68A",
+      "icon": "flower"
+    },
+    {
+      "titel": "20.–24. SSW: von außen fühlbar",
+      "text": "jetzt kann oft auch der Partner die Tritte spüren",
+      "farbe": "#FFCBA4",
+      "icon": "hand"
+    },
+    {
+      "titel": "3. Trimester: kräftige Tritte",
+      "text": "Knuffe, Drehungen und Schluckauf – oft abends",
+      "farbe": "#A8E6CF",
+      "icon": "feet"
+    },
+    {
+      "titel": "Plötzlich weniger Bewegung?",
+      "text": "nicht abwarten – sofort Hebamme oder Klinik anrufen",
+      "farbe": "#D4A5E8",
+      "icon": "voice"
+    }
+  ],
+  "frage": [
+    "Wann hast du es",
+    "gespürt?"
+  ],
+  "unterzeile": "Schreib deine SSW in die Kommentare",
+  "speichern": "Speichern – für deine Schwangerschaft",
+  "zahlen_chips": false
+}

@@ -1,0 +1,51 @@
+{
+  "thema": "Ab wann sieht man den Babybauch?",
+  "kicker": "SCHWANGERSCHAFT · WOCHE FÜR WOCHE",
+  "hook": [
+    "Ab wann",
+    "sieht man den",
+    "Babybauch?",
+    ""
+  ],
+  "teaser": "Nr. 5 beruhigt viele",
+  "highlight": 5,
+  "karten": [
+    {
+      "titel": "Bis ca. 12. SSW: kaum etwas",
+      "text": "Blähbauch ja – Babybauch eher nicht",
+      "farbe": "#A8D8F0",
+      "icon": "flower"
+    },
+    {
+      "titel": "12.–16. SSW: erste Rundung",
+      "text": "beim 1. Kind oft später, beim 2. früher",
+      "farbe": "#FDE68A",
+      "icon": "heart"
+    },
+    {
+      "titel": "Ca. 20. SSW: auf Nabelhöhe",
+      "text": "so hoch steht die Gebärmutter jetzt",
+      "farbe": "#FFCBA4",
+      "icon": "babyface"
+    },
+    {
+      "titel": "Danach ca. 1 cm pro Woche",
+      "text": "jetzt wächst der Bauch richtig schnell",
+      "farbe": "#A8E6CF",
+      "icon": "feet"
+    },
+    {
+      "titel": "Jeder Bauch ist anders",
+      "text": "die Größe sagt nichts übers Babygewicht",
+      "farbe": "#D4A5E8",
+      "icon": "voice"
+    }
+  ],
+  "frage": [
+    "Wann sah man",
+    "deinen?"
+  ],
+  "unterzeile": "Schreib deine SSW in die Kommentare",
+  "speichern": "Speichern – für deine Schwangerschaft",
+  "zahlen_chips": false
+}

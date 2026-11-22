@@ -1,0 +1,77 @@
+{
+  "cover": {
+    "kicker": "CHECKLISTE · ZUM SPEICHERN",
+    "titel": "Das gehört in deine <span class=\"mark\">Kliniktasche</span>",
+    "icon": "bag",
+    "teaser": "Nr. 2 vergessen viele!"
+  },
+  "slides": [
+    {
+      "titel": "Papiere & Dokumente",
+      "farbe": "#A8D8F0",
+      "icon": "doc",
+      "punkte": [
+        "Mutterpass",
+        "Personalausweis",
+        "Krankenkassenkarte",
+        "Geburts- bzw. Heiratsurkunde (für die Geburtsanmeldung)"
+      ],
+      "notiz": "Welche Urkunden genau nötig sind, sagt dir dein Standesamt."
+    },
+    {
+      "titel": "Für die Heimfahrt",
+      "farbe": "#FDE68A",
+      "icon": "carseat",
+      "punkte": [
+        "Babyschale fürs Auto – Einbau vorher üben!",
+        "Body & Strampler",
+        "Mütze & Söckchen",
+        "Jacke oder Overall je nach Wetter"
+      ],
+      "notiz": "Ohne Babyschale geht’s mit dem Auto nicht nach Hause.",
+      "hinweis": "Vergessen viele!"
+    },
+    {
+      "titel": "Bequem für dich",
+      "farbe": "#FFCBA4",
+      "icon": "feet",
+      "punkte": [
+        "Weite Kleidung & Nachthemd",
+        "Still-BH",
+        "Warme Socken & Hausschuhe",
+        "Bademantel oder Strickjacke"
+      ],
+      "notiz": "Lieber dunkle Farben – und alles, was sich leicht öffnen lässt."
+    },
+    {
+      "titel": "Pflege & Wochenbett",
+      "farbe": "#A8E6CF",
+      "icon": "drop",
+      "punkte": [
+        "Kulturbeutel & Lippenpflege",
+        "Haargummis",
+        "Stilleinlagen",
+        "Brille statt Kontaktlinsen"
+      ],
+      "notiz": "Einlagen & Netzhöschen stellt oft die Klinik – kurz nachfragen."
+    },
+    {
+      "titel": "Kleinkram, der Gold wert ist",
+      "farbe": "#D4A5E8",
+      "icon": "plug",
+      "punkte": [
+        "Langes Ladekabel",
+        "Snacks & Getränke",
+        "Kleingeld fürs Parken & den Automaten",
+        "Kopfhörer & Lieblingsplaylist"
+      ],
+      "notiz": "Auch an Snacks für die Begleitperson denken."
+    }
+  ],
+  "schluss": {
+    "titel": "Wann <span class=\"mark yel\">packen?</span>",
+    "text": "Spätestens ab ca. der <b>36. SSW</b> sollte die Tasche fertig sein.",
+    "tipp": "<b>Tipp:</b> Frag deine Klinik, was sie stellt – oft gibt’s Windeln, Einlagen & Netzhöschen vor Ort.",
+    "quelle": "Infos nach Empfehlungen von Hebammen"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "cover": {
+    "kicker": "BABYS ERSTES JAHR · ZUM SPEICHERN",
+    "titel": "Diese Checks hat dein Baby im <span class=\"mark\">1. Jahr:</span>",
+    "icon": "doc",
+    "teaser": "Extra-Check bei Nr. 3!"
+  },
+  "slides": [
+    {
+      "titel": "U1 · direkt nach der Geburt",
+      "farbe": "#A8D8F0",
+      "icon": "heart",
+      "punkte": [
+        "Atmung, Herzschlag, Hautfarbe",
+        "Wiegen & Messen",
+        "Erste Vitamin-K-Gabe"
+      ],
+      "notiz": "Findet meist noch im Kreißsaal statt."
+    },
+    {
+      "titel": "U2 · 3.–10. Lebenstag",
+      "farbe": "#FDE68A",
+      "icon": "babyface",
+      "punkte": [
+        "Gründlicher Check von Kopf bis Fuß",
+        "Zweite Vitamin-K-Gabe",
+        "Oft noch in der Klinik"
+      ],
+      "notiz": "Das Blut-Screening aus der Ferse passiert meist schon vorher."
+    },
+    {
+      "titel": "U3 · 4.–5. Lebenswoche",
+      "farbe": "#FFCBA4",
+      "icon": "feet",
+      "punkte": [
+        "Ultraschall der Hüfte",
+        "Dritte Vitamin-K-Gabe",
+        "Gewicht, Wachstum & Reflexe"
+      ],
+      "notiz": "Den Termin am besten direkt nach der Geburt ausmachen.",
+      "hinweis": "Extra-Check!"
+    },
+    {
+      "titel": "U4 · 3.–4. Lebensmonat",
+      "farbe": "#A8E6CF",
+      "icon": "eye",
+      "punkte": [
+        "Bewegung & Entwicklung",
+        "Hören & Sehen",
+        "Impfungen werden besprochen"
+      ],
+      "notiz": "Jedes Baby entwickelt sich in seinem eigenen Tempo."
+    },
+    {
+      "titel": "U5 & U6 · 6.–7. und 10.–12. Monat",
+      "farbe": "#D4A5E8",
+      "icon": "hand",
+      "punkte": [
+        "U5: Greifen, Drehen, erste Laute",
+        "U6: Krabbeln, Hochziehen, Silben",
+        "Zähne & Ernährung"
+      ],
+      "notiz": "Alle Ergebnisse stehen im gelben Heft."
+    }
+  ],
+  "schluss": {
+    "titel": "Gelbes Heft <span class=\"mark yel\">dabei?</span>",
+    "text": "Die Zeiträume sind fest – Termine früh ausmachen.",
+    "tipp": "<b>Tipp:</b> Trag dir alle Zeiträume direkt nach der Geburt in den Kalender ein.",
+    "teilen": "Schick das frischen Eltern",
+    "quelle": "Quelle: Kinder-Richtlinie des G-BA · Fragen? Dein Kinderarzt hilft."
+  }
+}

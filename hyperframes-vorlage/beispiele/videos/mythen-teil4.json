@@ -1,0 +1,56 @@
+{
+  "thema": "Schwangerschafts-Mythen · Teil 4",
+  "kicker": "MYTHOS ODER WAHRHEIT? TEIL 4",
+  "hook": [
+    "{5} Mythen, die",
+    "fast jede",
+    "Schwangere",
+    "hört"
+  ],
+  "teaser": "Nr. 4 stimmt wirklich!",
+  "highlight": 4,
+  "karten": [
+    {
+      "titel": "„Ananas löst Wehen aus“",
+      "text": "dafür gibt es keine guten Belege",
+      "farbe": "#A8D8F0",
+      "icon": "carrot",
+      "stempel": "MYTHOS"
+    },
+    {
+      "titel": "„Bei Vollmond kommen mehr Babys“",
+      "text": "Studien finden keinen Zusammenhang",
+      "farbe": "#FDE68A",
+      "icon": "moon",
+      "stempel": "MYTHOS"
+    },
+    {
+      "titel": "„Schwangere dürfen nicht fliegen“",
+      "text": "meist bis ca. 36. SSW möglich – Ärztin & Airline fragen",
+      "farbe": "#FFCBA4",
+      "icon": "bag",
+      "stempel": "MYTHOS"
+    },
+    {
+      "titel": "„Rohmilchkäse ist tabu“",
+      "text": "wegen Listerien – lieber pasteurisierten Käse wählen",
+      "farbe": "#A8E6CF",
+      "icon": "heart",
+      "stempel": "STIMMT!"
+    },
+    {
+      "titel": "„Baden ist verboten“",
+      "text": "warm, nicht heiß, ist okay – nach dem Blasensprung nicht mehr",
+      "farbe": "#D4A5E8",
+      "icon": "drop",
+      "stempel": "MYTHOS"
+    }
+  ],
+  "frage": [
+    "Welchen hast du",
+    "geglaubt?"
+  ],
+  "unterzeile": "Nummer in die Kommentare:",
+  "speichern": "Speichern – für deine Schwangerschaft",
+  "zahlen_chips": true
+}

@@ -1,0 +1,72 @@
+{
+  "cover": {
+    "kicker": "WOCHENBETT · CHECKLISTE",
+    "titel": "Das brauchst du im <span class=\"mark\">Wochenbett</span> wirklich:",
+    "icon": "bag",
+    "teaser": "Nr. 5 unterschätzen viele!"
+  },
+  "slides": [
+    {
+      "titel": "Für untenrum",
+      "farbe": "#A8D8F0",
+      "icon": "drop",
+      "punkte": [
+        "Große Wochenbett-Einlagen",
+        "Netzhöschen oder alte Slips",
+        "Spülflasche mit lauwarmem Wasser"
+      ],
+      "notiz": "Der Wochenfluss kann einige Wochen dauern."
+    },
+    {
+      "titel": "Fürs Stillen",
+      "farbe": "#FDE68A",
+      "icon": "heart",
+      "punkte": [
+        "Stilleinlagen",
+        "Still-BHs oder Bustiers",
+        "Brustwarzensalbe (z. B. Lanolin)"
+      ],
+      "notiz": "Tut das Stillen weh? Frag deine Hebamme."
+    },
+    {
+      "titel": "Dein Stillplatz",
+      "farbe": "#FFCBA4",
+      "icon": "cup",
+      "punkte": [
+        "Große Wasserflasche",
+        "Snacks in Griffweite",
+        "Stillkissen & langes Ladekabel"
+      ],
+      "notiz": "Stillen macht durstig und hungrig."
+    },
+    {
+      "titel": "Für die Erholung",
+      "farbe": "#A8E6CF",
+      "icon": "moon",
+      "punkte": [
+        "Bequeme, weite Kleidung",
+        "Kühlpads – nach Absprache mit der Hebamme",
+        "Eine ruhige Ecke zum Hinlegen"
+      ],
+      "notiz": "Liegen hilft dem Beckenboden bei der Erholung."
+    },
+    {
+      "titel": "Hilfe & Essen",
+      "farbe": "#D4A5E8",
+      "icon": "hand",
+      "punkte": [
+        "Vorgekochte Mahlzeiten im Gefrierfach",
+        "Hebamme für die Nachsorge – früh suchen!",
+        "Jemand, der Haushalt & Besuch regelt"
+      ],
+      "notiz": "Wochenbett heißt: liegen, kuscheln, erholen.",
+      "hinweis": "Unterschätzen viele!"
+    }
+  ],
+  "schluss": {
+    "titel": "Wie lange <span class=\"mark yel\">dauert’s?</span>",
+    "text": "Das Wochenbett dauert etwa <b>6–8 Wochen</b>.",
+    "tipp": "<b>Tipp:</b> Such dir früh in der Schwangerschaft eine Hebamme für die Nachsorge – die Plätze sind oft knapp.",
+    "quelle": "Infos nach Empfehlungen von Hebammen"
+  }
+}

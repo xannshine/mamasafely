@@ -1,0 +1,51 @@
+{
+  "thema": "Ab wann schlägt Babys Herz?",
+  "kicker": "SCHWANGERSCHAFT · WOCHE FÜR WOCHE",
+  "hook": [
+    "Ab wann",
+    "schlägt",
+    "Babys Herz?",
+    ""
+  ],
+  "teaser": "Nr. 3 ist der Wahnsinn",
+  "highlight": 3,
+  "karten": [
+    {
+      "titel": "Ab ca. 6. SSW: der erste Schlag",
+      "text": "dein Baby ist da erst so groß wie eine Linse",
+      "farbe": "#F7C8D4",
+      "icon": "heart"
+    },
+    {
+      "titel": "6.–7. SSW: im Ultraschall sichtbar",
+      "text": "noch nicht zu sehen? Oft wird 1–2 Wochen später nachgeschaut",
+      "farbe": "#FDE68A",
+      "icon": "eye"
+    },
+    {
+      "titel": "9. SSW: bis zu 170 Schläge",
+      "text": "pro Minute – fast doppelt so schnell wie dein Herz",
+      "farbe": "#FFCBA4",
+      "icon": "flame"
+    },
+    {
+      "titel": "Ab ca. 12. SSW: hörbar",
+      "text": "beim Frauenarzt per Doppler – Gänsehaut pur",
+      "farbe": "#A8E6CF",
+      "icon": "voice"
+    },
+    {
+      "titel": "Später: 110–160 Schläge",
+      "text": "pro Minute – das ist der normale Bereich beim Baby",
+      "farbe": "#D4A5E8",
+      "icon": "babyface"
+    }
+  ],
+  "frage": [
+    "Wann hast du es",
+    "gehört?"
+  ],
+  "unterzeile": "Schreib deine SSW in die Kommentare",
+  "speichern": "Speichern – für deine Schwangerschaft",
+  "zahlen_chips": false
+}

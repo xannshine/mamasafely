@@ -1,0 +1,105 @@
+<template>
+  <div id="root" data-composition-id="story" data-width="1080" data-height="1920">
+    <style>
+      @font-face { font-family: "Fredoka"; font-weight: 600; src: url("assets/fonts/fredoka-latin-600-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Fredoka"; font-weight: 700; src: url("assets/fonts/fredoka-latin-700-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Quicksand"; font-weight: 700; src: url("assets/fonts/quicksand-latin-700-normal.woff2") format("woff2"); }
+      #root { position: absolute; inset: 0; color: #2d2d2d; font-family: "Fredoka", sans-serif; }
+      #root #st-pill {
+        position: absolute; left: 70px; top: 300px; height: 72px; padding: 0 30px 0 18px;
+        display: flex; align-items: center; gap: 12px; background: #fff; border: 4px solid #2d2d2d;
+        border-radius: 50px; box-shadow: 5px 5px 0 #2d2d2d; font-weight: 600; font-size: 36px;
+      }
+      #root #st-dot { width: 40px; height: 40px; border-radius: 50%; background: #f8635f; border: 3px solid #2d2d2d; }
+      #root #st-new {
+        position: absolute; left: 640px; top: 290px; padding: 14px 28px; background: #f8635f; color: #fff;
+        border: 4px solid #2d2d2d; border-radius: 20px; box-shadow: 5px 5px 0 #2d2d2d;
+        font-weight: 700; font-size: 40px; letter-spacing: 0.04em; text-shadow: 3px 3px 0 #2d2d2d;
+      }
+      #root #st-kicker { position: absolute; left: 70px; top: 440px; font-family: "Quicksand", sans-serif; font-weight: 700; font-size: 46px; }
+      #root #st-q { position: absolute; left: 70px; top: 510px; width: 900px; font-weight: 700; font-size: 104px; line-height: 1.04; }
+      #root #st-q .st-mark {
+        display: inline-block; background: #a8d8f0; border: 4px solid #2d2d2d; border-radius: 22px;
+        padding: 0 20px 8px; box-shadow: 6px 6px 0 #2d2d2d;
+      }
+      #root #st-flame {
+        position: absolute; left: 700px; top: 860px; width: 240px; height: 240px; border-radius: 50%;
+        background: #a8d8f0; border: 5px solid #2d2d2d; box-shadow: 7px 7px 0 #2d2d2d;
+      }
+      #root #st-flame svg { position: absolute; left: 25px; top: 20px; width: 190px; height: 190px; }
+      #root .st-btn {
+        position: absolute; left: 70px; width: 600px; height: 140px; border-radius: 70px;
+        border: 5px solid #2d2d2d; box-shadow: 8px 8px 0 #2d2d2d; color: #fff;
+        font-weight: 700; font-size: 64px; letter-spacing: 0.04em; text-shadow: 3px 3px 0 #2d2d2d;
+        display: flex; align-items: center; justify-content: center;
+      }
+      #root #st-b1 { top: 1150px; background: #23935a; }
+      #root #st-b2 { top: 1370px; background: #f8635f; }
+      #root #st-or { position: absolute; left: 318px; top: 1305px; font-weight: 700; font-size: 40px; }
+      #root #st-qmark {
+        position: absolute; left: 710px; top: 1230px; width: 200px; height: 200px; border-radius: 50%;
+        background: #fde68a; border: 5px solid #2d2d2d; box-shadow: 7px 7px 0 #2d2d2d;
+        display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 140px;
+      }
+      #root #st-foot {
+        position: absolute; left: 70px; top: 1575px; font-family: "Quicksand", sans-serif; font-weight: 700;
+        font-size: 48px; display: flex; align-items: center; gap: 16px;
+      }
+    </style>
+
+    <div id="st-pillwrap" class="clip" data-start="0" data-duration="7">
+      <div id="st-pill"><div id="st-dot"></div><span>@mamasafely</span></div>
+    </div>
+    <div id="st-newwrap" class="clip" data-start="0" data-duration="7"><div id="st-new">NEUES VIDEO</div></div>
+    <div id="st-kickwrap" class="clip" data-start="0" data-duration="7"><p id="st-kicker">Wochenbett – was meinst du?</p></div>
+    <div id="st-qwrap" class="clip" data-start="0" data-duration="7">
+      <h1 id="st-q"><span id="st-q1" style="display:block">Nach der Geburt</span><span id="st-q2" style="display:block">nachts</span><span id="st-q3" style="display:block"><span class="st-mark">klitschnass?</span></span></h1>
+    </div>
+    <div id="st-flamewrap" class="clip" data-start="0" data-duration="7">
+      <div id="st-flame">
+        <svg viewBox="0 0 310 310">
+          <path d="M155 25 C155 25 65 140 65 195 A90 90 0 0 0 245 195 C245 140 155 25 155 25 Z" fill="#FFFFFF" stroke="#2D2D2D" stroke-width="10" stroke-linejoin="round" />
+          <path d="M110 190 Q110 160 128 140" fill="none" stroke="#A8D8F0" stroke-width="14" stroke-linecap="round" />
+          <path d="M125 225 Q155 245 185 225" fill="none" stroke="#2D2D2D" stroke-width="8" stroke-linecap="round" />
+          <circle cx="125" cy="200" r="7" fill="#2D2D2D" /><circle cx="185" cy="200" r="7" fill="#2D2D2D" />
+        </svg>
+      </div>
+    </div>
+    <div id="st-btnwrap" class="clip" data-start="0" data-duration="7">
+      <div class="st-btn" id="st-b1">NORMAL</div>
+      <div id="st-or">oder</div>
+      <div class="st-btn" id="st-b2">BEDENKLICH</div>
+      <div id="st-qmark">?</div>
+    </div>
+    <div id="st-footwrap" class="clip" data-start="0" data-duration="7">
+      <div id="st-foot">
+        <svg width="56" height="56" viewBox="0 0 56 56"><path d="M28 6 V46 M12 30 L28 48 L44 30" fill="none" stroke="#2D2D2D" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+        <span>Auflösung im neuesten Video</span>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#st-new", { scale: 0, rotation: -25 }, { scale: 1, rotation: 6, duration: 0.4, ease: "back.out(2.6)" }, 0.1);
+    tl.fromTo("#st-new", { scale: 1 }, { scale: 1.08, duration: 0.35, ease: "sine.inOut", yoyo: true, repeat: 7, immediateRender: false }, 1.0);
+    tl.fromTo("#st-kicker", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 0.15);
+    tl.fromTo(["#st-q1", "#st-q2", "#st-q3"], { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "back.out(1.6)", stagger: 0.12 }, 0.25);
+    tl.fromTo("#st-flame", { scale: 0 }, { scale: 1, duration: 0.45, ease: "back.out(2.4)" }, 0.6);
+    tl.fromTo("#st-flame svg", { rotation: -6, transformOrigin: "50% 80%" }, { rotation: 6, scaleY: 1.06, duration: 0.25, ease: "sine.inOut", yoyo: true, repeat: 21 }, 1.0);
+    tl.fromTo("#st-b1", { x: -700 }, { x: 0, duration: 0.4, ease: "back.out(1.4)" }, 0.9);
+    tl.fromTo("#st-b2", { x: -700 }, { x: 0, duration: 0.4, ease: "back.out(1.4)" }, 1.05);
+    tl.fromTo("#st-or", { opacity: 0 }, { opacity: 1, duration: 0.2 }, 1.3);
+    tl.fromTo("#st-qmark", { scale: 0, rotation: 40 }, { scale: 1, rotation: -8, duration: 0.45, ease: "back.out(2.6)" }, 1.35);
+    // suspense: the "?" jumps between both answers, never resolving
+    const ys = [-110, 110, -110, 110, -110, 110, -110, 110];
+    ys.forEach((y, i) => {
+      tl.to("#st-qmark", { y: y, rotation: i % 2 ? 8 : -8, duration: 0.18, ease: "power2.out" }, 2.0 + i * 0.5);
+      tl.to(i % 2 ? "#st-b2" : "#st-b1", { scale: 1.06, duration: 0.12, yoyo: true, repeat: 1, ease: "sine.inOut" }, 2.0 + i * 0.5);
+    });
+    tl.to("#st-qmark", { y: 0, rotation: -8, scale: 1.15, duration: 0.3, ease: "back.out(2)" }, 6.0);
+    tl.fromTo("#st-foot", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.35, ease: "power3.out" }, 1.8);
+    tl.fromTo("#st-foot svg", { y: 0 }, { y: 12, duration: 0.3, ease: "sine.inOut", yoyo: true, repeat: 13, immediateRender: false }, 2.2);
+    tl.set({}, {}, 7);
+    window.__timelines["story"] = tl;
+  </script>
+</template>

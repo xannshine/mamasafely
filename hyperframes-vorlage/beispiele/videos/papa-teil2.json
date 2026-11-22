@@ -1,0 +1,51 @@
+{
+  "thema": "Für Papas · Teil 2",
+  "kicker": "FÜR PAPAS · TEIL 2",
+  "hook": [
+    "{5} Sätze, die",
+    "jede Mama",
+    "hören will",
+    ""
+  ],
+  "teaser": "Nr. 2 ist Gold wert",
+  "highlight": 2,
+  "karten": [
+    {
+      "titel": "„Du machst das großartig.“",
+      "text": "gerade jetzt tut Bestätigung richtig gut",
+      "farbe": "#A8D8F0",
+      "icon": "heart"
+    },
+    {
+      "titel": "„Ich übernehme heute Nacht.“",
+      "text": "wickeln und das Baby zum Stillen bringen",
+      "farbe": "#FDE68A",
+      "icon": "moon"
+    },
+    {
+      "titel": "„Leg dich hin, ich mach das.“",
+      "text": "Wochenbett heißt: liegen und erholen",
+      "farbe": "#FFCBA4",
+      "icon": "hand"
+    },
+    {
+      "titel": "„Hast du schon gegessen?“",
+      "text": "beim Stillen vergisst man sich schnell",
+      "farbe": "#A8E6CF",
+      "icon": "cup"
+    },
+    {
+      "titel": "„Wie geht’s dir – wirklich?“",
+      "text": "Baby Blues ist häufig – hält er an, Hebamme ansprechen",
+      "farbe": "#D4A5E8",
+      "icon": "voice"
+    }
+  ],
+  "frage": [
+    "Schick das",
+    "dem Papa!"
+  ],
+  "unterzeile": "Welchen Satz hörst du am liebsten?",
+  "speichern": "Speichern – für euch beide",
+  "zahlen_chips": true
+}

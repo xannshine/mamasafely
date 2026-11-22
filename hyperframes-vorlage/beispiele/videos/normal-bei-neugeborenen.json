@@ -1,0 +1,51 @@
+{
+  "thema": "Normal bei Neugeborenen",
+  "kicker": "NEUGEBOREN",
+  "hook": [
+    "{5} Dinge, die",
+    "bei Babys",
+    "ganz normal",
+    "sind"
+  ],
+  "teaser": "Nr. 1 erschreckt viele",
+  "highlight": 1,
+  "karten": [
+    {
+      "titel": "Das Gewicht sinkt erst",
+      "text": "bis ca. 10 % in den ersten Tagen sind normal",
+      "farbe": "#A8D8F0",
+      "icon": "babyface"
+    },
+    {
+      "titel": "Leicht gelbe Haut",
+      "text": "Neugeborenengelbsucht ist häufig – Hebamme schaut drauf",
+      "farbe": "#FDE68A",
+      "icon": "eye"
+    },
+    {
+      "titel": "Schwarzer, klebriger Stuhl",
+      "text": "das „Kindspech“ in den ersten Tagen",
+      "farbe": "#FFCBA4",
+      "icon": "drop"
+    },
+    {
+      "titel": "Pickelchen im Gesicht",
+      "text": "Neugeborenenakne – geht meist von selbst weg",
+      "farbe": "#A8E6CF",
+      "icon": "flower"
+    },
+    {
+      "titel": "Viel Niesen",
+      "text": "ganz normal – so machen sie ihre Nase frei",
+      "farbe": "#D4A5E8",
+      "icon": "voice"
+    }
+  ],
+  "frage": [
+    "Was hat dich",
+    "überrascht?"
+  ],
+  "unterzeile": "Nummer in die Kommentare:",
+  "speichern": "Speichern – für die ersten Tage",
+  "zahlen_chips": true
+}
