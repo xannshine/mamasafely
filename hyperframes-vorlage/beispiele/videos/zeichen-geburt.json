@@ -1,0 +1,51 @@
+{
+  "thema": "Bald geht’s los",
+  "kicker": "SCHWANGERSCHAFT · ENDSPURT",
+  "hook": [
+    "{5} Zeichen,",
+    "dass es bald",
+    "losgeht",
+    ""
+  ],
+  "teaser": "Nr. 2 kennen viele Mamas",
+  "highlight": 2,
+  "karten": [
+    {
+      "titel": "Der Bauch senkt sich",
+      "text": "oft schon Wochen vorher – das Atmen fällt leichter",
+      "farbe": "#A8D8F0",
+      "icon": "babyface"
+    },
+    {
+      "titel": "Plötzlicher Putzwahn",
+      "text": "der „Nestbautrieb“ – alles soll fertig werden",
+      "farbe": "#FDE68A",
+      "icon": "flower"
+    },
+    {
+      "titel": "Der Schleimpfropf löst sich",
+      "text": "Stunden bis Tage vor der Geburt möglich",
+      "farbe": "#FFCBA4",
+      "icon": "drop"
+    },
+    {
+      "titel": "Die Fruchtblase platzt",
+      "text": "dann direkt Klinik oder Hebamme anrufen",
+      "farbe": "#A8E6CF",
+      "icon": "voice"
+    },
+    {
+      "titel": "Regelmäßige Wehen",
+      "text": "etwa alle 5 Min. – oder wie mit der Klinik besprochen",
+      "farbe": "#D4A5E8",
+      "icon": "heart"
+    }
+  ],
+  "frage": [
+    "Was war es",
+    "bei dir?"
+  ],
+  "unterzeile": "Nummer in die Kommentare:",
+  "speichern": "Speichern – für den Endspurt",
+  "zahlen_chips": true
+}

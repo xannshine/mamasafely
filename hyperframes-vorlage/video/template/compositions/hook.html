@@ -1,0 +1,116 @@
+<template>
+  <div id="root" data-composition-id="hook" data-width="1080" data-height="1920">
+    <style>
+      @font-face { font-family: "Fredoka"; font-weight: 600; src: url("assets/fonts/fredoka-latin-600-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Fredoka"; font-weight: 700; src: url("assets/fonts/fredoka-latin-700-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Quicksand"; font-weight: 700; src: url("assets/fonts/quicksand-latin-700-normal.woff2") format("woff2"); }
+      #root {
+        position: absolute;
+        inset: 0;
+        color: #2d2d2d;
+        font-family: "Fredoka", sans-serif;
+      }
+      #root #hk-kicker {
+        position: absolute;
+        left: 70px;
+        top: 380px;
+        padding: 14px 30px;
+        background: #fde68a;
+        border: 4px solid #2d2d2d;
+        border-radius: 50px;
+        box-shadow: 5px 5px 0 #2d2d2d;
+        font-weight: 600;
+        font-size: 40px;
+        letter-spacing: 0.04em;
+      }
+      #root #hk-head {
+        position: absolute;
+        left: 70px;
+        top: 500px;
+        width: 880px;
+        font-weight: 700;
+        font-size: 132px;
+        line-height: 1.04;
+        letter-spacing: 0.005em;
+      }
+      #root .hk-line {
+        display: block;
+      }
+      #root #hk-five {
+        color: #f8635f;
+        -webkit-text-stroke: 4px #2d2d2d;
+        paint-order: stroke fill;
+        text-shadow: 6px 6px 0 #2d2d2d;
+      }
+      #root .hk-mark {
+        display: inline-block;
+        background: #f7c8d4;
+        border: 4px solid #2d2d2d;
+        border-radius: 22px;
+        padding: 0 22px 8px;
+        box-shadow: 6px 6px 0 #2d2d2d;
+      }
+      #root #hk-teaser {
+        position: absolute;
+        left: 70px;
+        top: 1160px;
+        padding: 18px 32px;
+        background: #f8635f;
+        color: #ffffff;
+        border: 4px solid #2d2d2d;
+        border-radius: 24px;
+        box-shadow: 6px 6px 0 #2d2d2d;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+        font-size: 44px;
+      }
+      #root #hk-baby {
+        position: absolute;
+        left: 730px;
+        top: 1090px;
+        width: 220px;
+        height: 220px;
+      }
+    </style>
+
+    <div id="hk-kicker" class="clip" data-start="0" data-duration="3">MYTHOS ODER WAHRHEIT?</div>
+
+    <h1 id="hk-head" class="clip" data-start="0" data-duration="3">
+      <span class="hk-line" id="hk-l1"><span id="hk-five">5</span> Mythen, die</span>
+      <span class="hk-line" id="hk-l2">fast jede</span>
+      <span class="hk-line" id="hk-l3"><span class="hk-mark">Schwangere</span></span>
+      <span class="hk-line" id="hk-l4">glaubt</span>
+    </h1>
+
+    <div id="hk-teaser" class="clip" data-start="0" data-duration="3">
+      <span id="hk-teaser-in" style="display: inline-block">Aber Nr. 3 stimmt wirklich!</span>
+    </div>
+
+    <div id="hk-babywrap" class="clip" data-start="0" data-duration="3">
+      <svg id="hk-baby" viewBox="0 0 270 270">
+        <g id="hk-baby-g">
+          <circle cx="135" cy="140" r="112" fill="#FFCBA4" stroke="#2D2D2D" stroke-width="7" />
+          <path d="M120 30 C110 6 150 2 148 22 C146 36 128 34 132 24" fill="none" stroke="#2D2D2D" stroke-width="7" stroke-linecap="round" />
+          <path d="M82 128 Q98 112 114 128" fill="none" stroke="#2D2D2D" stroke-width="7" stroke-linecap="round" />
+          <path d="M156 128 Q172 112 188 128" fill="none" stroke="#2D2D2D" stroke-width="7" stroke-linecap="round" />
+          <ellipse cx="72" cy="166" rx="20" ry="13" fill="#F7C8D4" />
+          <ellipse cx="198" cy="166" rx="20" ry="13" fill="#F7C8D4" />
+          <path d="M118 178 Q135 196 152 178" fill="none" stroke="#2D2D2D" stroke-width="7" stroke-linecap="round" />
+        </g>
+      </svg>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // Frame 0 is the thumbnail: everything that hooks is already readable.
+    tl.fromTo("#hk-l1", { scale: 0.94, transformOrigin: "0% 50%" }, { scale: 1, duration: 0.5, ease: "back.out(3)" }, 0);
+    tl.fromTo("#hk-l3", { rotation: -3 }, { rotation: 2, duration: 0.45, ease: "sine.inOut", yoyo: true, repeat: 5 }, 0);
+    tl.fromTo("#hk-five", { scale: 1 }, { scale: 1.18, duration: 0.3, ease: "power2.out", yoyo: true, repeat: 3 }, 0.5);
+    tl.fromTo("#hk-teaser-in", { scale: 0.92, rotation: -4 }, { scale: 1.04, rotation: -2, duration: 0.4, ease: "sine.inOut", yoyo: true, repeat: 5 }, 0);
+    tl.fromTo("#hk-baby-g", { y: 0, rotation: -6, transformOrigin: "50% 50%" }, { y: -16, rotation: 6, duration: 0.7, ease: "sine.inOut", yoyo: true, repeat: 3 }, 0);
+    // quick exit into fact 1
+    tl.to(["#hk-kicker", "#hk-head", "#hk-teaser", "#hk-babywrap"], { opacity: 0, duration: 0.18, ease: "power2.in" }, 2.78);
+    tl.set({}, {}, 3);
+    window.__timelines["hook"] = tl;
+  </script>
+</template>

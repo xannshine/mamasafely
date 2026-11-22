@@ -1,0 +1,51 @@
+{
+  "thema": "Dein Körper nach der Geburt",
+  "kicker": "WOCHENBETT · NACH DER GEBURT",
+  "hook": [
+    "{5} Dinge, die",
+    "dein Körper",
+    "danach",
+    "macht"
+  ],
+  "teaser": "Nr. 1 kennt kaum jemand",
+  "highlight": 1,
+  "karten": [
+    {
+      "titel": "Du schwitzt nachts extrem",
+      "text": "dein Körper baut Wasser aus der Schwangerschaft ab",
+      "farbe": "#A8D8F0",
+      "icon": "moon"
+    },
+    {
+      "titel": "Deine Gebärmutter schrumpft",
+      "text": "in ca. 6 Wochen fast wieder auf ihre alte Größe",
+      "farbe": "#FDE68A",
+      "icon": "flower"
+    },
+    {
+      "titel": "Stillen löst Nachwehen aus",
+      "text": "das Hormon Oxytocin lässt die Gebärmutter zusammenziehen",
+      "farbe": "#FFCBA4",
+      "icon": "flame"
+    },
+    {
+      "titel": "Die Milch kommt erst nach Tagen",
+      "text": "der Milcheinschuss kommt meist nach 2–4 Tagen",
+      "farbe": "#A8E6CF",
+      "icon": "drop"
+    },
+    {
+      "titel": "Du weinst plötzlich ohne Grund",
+      "text": "Baby Blues ist häufig – hält es an, sprich mit der Hebamme",
+      "farbe": "#D4A5E8",
+      "icon": "voice"
+    }
+  ],
+  "frage": [
+    "Welches wusstest du",
+    "nicht?"
+  ],
+  "unterzeile": "Nummer in die Kommentare:",
+  "speichern": "Speichern – fürs Wochenbett",
+  "zahlen_chips": true
+}

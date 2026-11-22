@@ -1,0 +1,134 @@
+<template>
+  <div
+    id="root"
+    data-composition-id="cta"
+    data-width="1080"
+    data-height="1920"
+    data-composition-variables='[{"id":"handle","type":"string","label":"Handle","default":"@mamasafely"}]'
+  >
+    <style>
+      @font-face { font-family: "Fredoka"; font-weight: 600; src: url("assets/fonts/fredoka-latin-600-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Fredoka"; font-weight: 700; src: url("assets/fonts/fredoka-latin-700-normal.woff2") format("woff2"); }
+      @font-face { font-family: "Quicksand"; font-weight: 700; src: url("assets/fonts/quicksand-latin-700-normal.woff2") format("woff2"); }
+      #root {
+        position: absolute;
+        inset: 0;
+        color: #2d2d2d;
+        font-family: "Fredoka", sans-serif;
+      }
+      #root #ct-q {
+        position: absolute;
+        left: 70px;
+        top: 400px;
+        width: 880px;
+        font-weight: 700;
+        font-size: 116px;
+        line-height: 1.04;
+      }
+      #root #ct-q .ct-mark {
+        display: inline-block;
+        background: #fde68a;
+        border: 4px solid #2d2d2d;
+        border-radius: 22px;
+        padding: 0 20px 8px;
+        box-shadow: 6px 6px 0 #2d2d2d;
+      }
+      #root #ct-sub {
+        position: absolute;
+        left: 70px;
+        top: 795px;
+        width: 860px;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 1.25;
+      }
+      #root #ct-chips {
+        position: absolute;
+        left: 70px;
+        top: 900px;
+        display: flex;
+        gap: 22px;
+      }
+      #root .ct-chip {
+        width: 140px;
+        height: 140px;
+        border-radius: 32px;
+        border: 5px solid #2d2d2d;
+        box-shadow: 6px 6px 0 #2d2d2d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 80px;
+      }
+      #root #ct-follow {
+        position: absolute;
+        left: 70px;
+        top: 1100px;
+        width: 860px;
+        height: 130px;
+        border-radius: 70px;
+        background: #f8635f;
+        border: 5px solid #2d2d2d;
+        box-shadow: 8px 8px 0 #2d2d2d;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 58px;
+        text-shadow: 3px 3px 0 #2d2d2d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+      }
+      #root #ct-save {
+        position: absolute;
+        left: 70px;
+        top: 1250px;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+    </style>
+
+    <h1 id="ct-q" class="clip" data-start="0" data-duration="4">
+      <span id="ct-q-in" style="display: block">Welchen hast du <span class="ct-mark">geglaubt?</span></span>
+    </h1>
+    <p id="ct-sub" class="clip" data-start="0" data-duration="4">
+      <span id="ct-sub-in" style="display: block">Nummer in die Kommentare:</span>
+    </p>
+    <div id="ct-chips" class="clip" data-start="0" data-duration="4">
+      <div class="ct-chip" id="ct-c1" style="background: #a8d8f0">1</div>
+      <div class="ct-chip" id="ct-c2" style="background: #fde68a">2</div>
+      <div class="ct-chip" id="ct-c3" style="background: #ffcba4">3</div>
+      <div class="ct-chip" id="ct-c4" style="background: #a8e6cf">4</div>
+      <div class="ct-chip" id="ct-c5" style="background: #d4a5e8">5</div>
+    </div>
+    <div id="ct-followwrap" class="clip" data-start="0" data-duration="4">
+      <div id="ct-follow">
+        <span>Folge</span><span data-var-text="handle">@mamasafely</span>
+      </div>
+    </div>
+    <div id="ct-savewrap" class="clip" data-start="0" data-duration="4">
+      <div id="ct-save">
+        <svg width="46" height="56" viewBox="0 0 46 56"><path d="M5 5 H41 V51 L23 38 L5 51 Z" fill="#FDE68A" stroke="#2D2D2D" stroke-width="5" stroke-linejoin="round" /></svg>
+        <span>Speichern – für deine Schwangerschaft</span>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#ct-q-in", { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "back.out(1.6)" }, 0);
+    tl.fromTo("#ct-sub-in", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power3.out" }, 0.3);
+    tl.fromTo(["#ct-c1", "#ct-c2", "#ct-c3", "#ct-c4", "#ct-c5"], { scale: 0, rotation: -20 }, { scale: 1, rotation: 0, duration: 0.35, ease: "back.out(2.6)", stagger: 0.08 }, 0.45);
+    tl.fromTo("#ct-follow", { y: 80, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: "back.out(1.8)" }, 0.95);
+    tl.fromTo("#ct-follow", { scale: 1 }, { scale: 1.05, duration: 0.35, ease: "sine.inOut", yoyo: true, repeat: 5, immediateRender: false }, 1.45);
+    tl.fromTo("#ct-save", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 1.3);
+    tl.fromTo("#ct-c3", { y: 0 }, { y: -22, duration: 0.25, ease: "power2.out", yoyo: true, repeat: 3, immediateRender: false }, 1.6);
+    tl.set({}, {}, 4);
+    window.__timelines["cta"] = tl;
+  </script>
+</template>

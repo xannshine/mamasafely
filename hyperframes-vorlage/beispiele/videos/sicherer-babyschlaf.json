@@ -1,0 +1,51 @@
+{
+  "thema": "Sicherer Babyschlaf",
+  "kicker": "SICHERER BABYSCHLAF",
+  "hook": [
+    "{5} Regeln für",
+    "sicheren",
+    "Babyschlaf",
+    ""
+  ],
+  "teaser": "Nr. 3 machen viele falsch",
+  "highlight": 3,
+  "karten": [
+    {
+      "titel": "Immer auf den Rücken",
+      "text": "nicht auf Bauch oder Seite legen",
+      "farbe": "#A8D8F0",
+      "icon": "moon"
+    },
+    {
+      "titel": "Eigenes Bettchen",
+      "text": "im ersten Jahr im Elternschlafzimmer",
+      "farbe": "#FDE68A",
+      "icon": "heart"
+    },
+    {
+      "titel": "Schlafsack statt Decke",
+      "text": "kein Kissen, keine Kuscheltiere im Bett",
+      "farbe": "#FFCBA4",
+      "icon": "babyface"
+    },
+    {
+      "titel": "16–18 °C im Schlafzimmer",
+      "text": "nicht überwärmen – keine Mütze im Bett",
+      "farbe": "#A8E6CF",
+      "icon": "drop"
+    },
+    {
+      "titel": "Rauchfreie Umgebung",
+      "text": "in der Schwangerschaft und danach",
+      "farbe": "#D4A5E8",
+      "icon": "flower"
+    }
+  ],
+  "frage": [
+    "Speichern &",
+    "teilen!"
+  ],
+  "unterzeile": "Wer braucht das gerade?",
+  "speichern": "Schick’s an frischgebackene Eltern",
+  "zahlen_chips": false
+}

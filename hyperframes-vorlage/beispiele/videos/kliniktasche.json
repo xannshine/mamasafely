@@ -1,0 +1,52 @@
+{
+  "thema": "Checkliste Kliniktasche",
+  "kicker": "CHECKLISTE · KLINIKTASCHE",
+  "hook": [
+    "{5} Dinge, die",
+    "in die",
+    "Kliniktasche",
+    "müssen"
+  ],
+  "teaser": "Nr. 2 vergessen viele!",
+  "highlight": 2,
+  "karten": [
+    {
+      "titel": "Mutterpass & Papiere",
+      "text": "plus Ausweis, Kassenkarte & Urkunden",
+      "farbe": "#A8D8F0",
+      "icon": "doc"
+    },
+    {
+      "titel": "Die Babyschale fürs Auto",
+      "text": "ohne geht’s nicht heim – Einbau üben!",
+      "farbe": "#FDE68A",
+      "icon": "carseat"
+    },
+    {
+      "titel": "Bequeme Kleidung",
+      "text": "Still-BH, warme Socken & Hausschuhe",
+      "farbe": "#FFCBA4",
+      "icon": "feet"
+    },
+    {
+      "titel": "Pflege fürs Wochenbett",
+      "text": "Lippenpflege, Haargummis & Stilleinlagen",
+      "farbe": "#A8E6CF",
+      "icon": "drop"
+    },
+    {
+      "titel": "Langes Ladekabel & Snacks",
+      "text": "für dich und deine Begleitperson",
+      "farbe": "#D4A5E8",
+      "icon": "plug"
+    }
+  ],
+  "frage": [
+    "Schick das einer",
+    "Schwangeren!"
+  ],
+  "unterzeile": "Was darf bei dir nicht fehlen?",
+  "speichern": "Jetzt speichern!",
+  "zahlen_chips": false,
+  "mark_groesse": 112
+}

@@ -1,0 +1,72 @@
+{
+  "cover": {
+    "kicker": "NACH DER GEBURT · ZUM SPEICHERN",
+    "titel": "Das passiert in den ersten <span class=\"mark\">24 Stunden:</span>",
+    "icon": "babyface",
+    "teaser": "Nr. 3 kennt kaum jemand!"
+  },
+  "slides": [
+    {
+      "titel": "Haut an Haut",
+      "farbe": "#A8D8F0",
+      "icon": "heart",
+      "punkte": [
+        "Dein Baby kommt direkt auf deine Brust",
+        "Das wärmt und beruhigt euch beide",
+        "Erstes Kennenlernen in Ruhe"
+      ],
+      "notiz": "Auch nach einem Kaiserschnitt oft möglich – frag nach."
+    },
+    {
+      "titel": "Die U1",
+      "farbe": "#FDE68A",
+      "icon": "doc",
+      "punkte": [
+        "Erste Untersuchung direkt nach der Geburt",
+        "Atmung, Herzschlag, Hautfarbe",
+        "Wiegen & Messen"
+      ],
+      "notiz": "Die Ergebnisse stehen im gelben Kinder-Untersuchungsheft."
+    },
+    {
+      "titel": "Vitamin-K-Tropfen",
+      "farbe": "#FFCBA4",
+      "icon": "drop",
+      "punkte": [
+        "Erste Tropfen bei der U1",
+        "Schützen vor seltenen Blutungen",
+        "Weitere Gaben bei U2 und U3"
+      ],
+      "notiz": "Neugeborene haben von Natur aus wenig Vitamin K.",
+      "hinweis": "Kennt kaum jemand!"
+    },
+    {
+      "titel": "Erstes Anlegen",
+      "farbe": "#A8E6CF",
+      "icon": "babyface",
+      "punkte": [
+        "Am besten schon in der ersten Stunde",
+        "Erst kommt die Vormilch (Kolostrum)",
+        "Kleine Mengen reichen – der Magen ist winzig"
+      ],
+      "notiz": "Hebammen helfen dir beim Anlegen."
+    },
+    {
+      "titel": "Und bei dir",
+      "farbe": "#D4A5E8",
+      "icon": "moon",
+      "punkte": [
+        "Nachwehen – die Gebärmutter zieht sich zusammen",
+        "Der Wochenfluss beginnt",
+        "Ganz viel Ruhe, Trinken & Essen"
+      ],
+      "notiz": "Sag Bescheid, wenn dir etwas komisch vorkommt."
+    }
+  ],
+  "schluss": {
+    "titel": "Gut zu <span class=\"mark yel\">wissen</span>",
+    "text": "Jede Geburt ist anders – der Ablauf kann je nach Klinik variieren.",
+    "tipp": "<b>Tipp:</b> Schreib dir vorher auf, was dir wichtig ist (z. B. Bonding, Anlegen) – und sprich es im Kreißsaal an.",
+    "quelle": "Infos nach Empfehlungen von Hebammen & Kinderärzten"
+  }
+}

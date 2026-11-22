@@ -1,0 +1,51 @@
+{
+  "thema": "Was Babys im Schlaf machen",
+  "kicker": "BABY-SCHLAF",
+  "hook": [
+    "{5} Dinge, die",
+    "Babys im",
+    "Schlaf",
+    "machen"
+  ],
+  "teaser": "Nr. 4 erschreckt viele Eltern",
+  "highlight": 4,
+  "karten": [
+    {
+      "titel": "Sie schlafen 14–17 Stunden",
+      "text": "verteilt über Tag und Nacht – in kurzen Etappen",
+      "farbe": "#A8D8F0",
+      "icon": "moon"
+    },
+    {
+      "titel": "Sie träumen sehr viel",
+      "text": "rund die Hälfte ihres Schlafs ist aktiver Traumschlaf",
+      "farbe": "#FDE68A",
+      "icon": "eye"
+    },
+    {
+      "titel": "Sie lächeln im Schlaf",
+      "text": "oft schon in den ersten Wochen – meist ein Reflex",
+      "farbe": "#FFCBA4",
+      "icon": "babyface"
+    },
+    {
+      "titel": "Sie atmen unregelmäßig",
+      "text": "kurze Atempausen sind normal – bei Blaufärbung sofort 112",
+      "farbe": "#A8E6CF",
+      "icon": "voice"
+    },
+    {
+      "titel": "Sie erschrecken sich selbst",
+      "text": "der Moro-Reflex lässt die Ärmchen hochfahren",
+      "farbe": "#D4A5E8",
+      "icon": "hand"
+    }
+  ],
+  "frage": [
+    "Welches wusstest du",
+    "nicht?"
+  ],
+  "unterzeile": "Nummer in die Kommentare:",
+  "speichern": "Speichern – für die ersten Wochen",
+  "zahlen_chips": true
+}

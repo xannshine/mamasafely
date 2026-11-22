@@ -1,0 +1,56 @@
+{
+  "thema": "Schwangerschafts-Mythen · Teil 3",
+  "kicker": "MYTHOS ODER WAHRHEIT? TEIL 3",
+  "hook": [
+    "{5} Mythen, die",
+    "fast jede",
+    "Schwangere",
+    "hört"
+  ],
+  "teaser": "Aber Nr. 2 stimmt wirklich!",
+  "highlight": 2,
+  "karten": [
+    {
+      "titel": "„Haare färben ist verboten“",
+      "text": "gilt als unbedenklich – viele warten das 1. Trimester ab",
+      "farbe": "#A8D8F0",
+      "icon": "flower",
+      "stempel": "MYTHOS"
+    },
+    {
+      "titel": "„Nicht auf dem Rücken schlafen“",
+      "text": "ab dem 3. Trimester wird die Seitenlage empfohlen",
+      "farbe": "#FDE68A",
+      "icon": "moon",
+      "stempel": "STIMMT!"
+    },
+    {
+      "titel": "„Sport schadet dem Baby“",
+      "text": "moderate Bewegung wird sogar empfohlen",
+      "farbe": "#FFCBA4",
+      "icon": "feet",
+      "stempel": "MYTHOS"
+    },
+    {
+      "titel": "„Katzen sind tabu“",
+      "text": "nur das Katzenklo solltest du anderen überlassen",
+      "farbe": "#A8E6CF",
+      "icon": "hand",
+      "stempel": "MYTHOS"
+    },
+    {
+      "titel": "„Fisch ist verboten“",
+      "text": "durchgegarter Fisch ist gesund – nur roh meiden",
+      "farbe": "#D4A5E8",
+      "icon": "carrot",
+      "stempel": "MYTHOS"
+    }
+  ],
+  "frage": [
+    "Welchen hast du",
+    "geglaubt?"
+  ],
+  "unterzeile": "Nummer in die Kommentare:",
+  "speichern": "Speichern – für deine Schwangerschaft",
+  "zahlen_chips": true
+}

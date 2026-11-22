@@ -1,0 +1,54 @@
+<template>
+  <div id="root" data-composition-id="bg" data-width="1080" data-height="1920">
+    <style>
+      #root {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        background: #f5f0e6;
+      }
+      #root .blob {
+        position: absolute;
+        border-radius: 50%;
+        opacity: 0.55;
+      }
+      #root #bg-b1 { width: 620px; height: 620px; left: -220px; top: 120px; background: #f7c8d4; }
+      #root #bg-b2 { width: 560px; height: 560px; left: 640px; top: 760px; background: #a8e6cf; }
+      #root #bg-b3 { width: 700px; height: 700px; left: -160px; top: 1420px; background: #fde68a; }
+      #root #bg-b4 { width: 420px; height: 420px; left: 760px; top: 1520px; background: #d4a5e8; }
+      #root #bg-dots {
+        position: absolute;
+        inset: 0;
+        background-image: radial-gradient(#2d2d2d 2.5px, transparent 3px);
+        background-size: 54px 54px;
+        opacity: 0.07;
+      }
+      #root .orn {
+        position: absolute;
+      }
+    </style>
+    <div class="blob" id="bg-b1"></div>
+    <div class="blob" id="bg-b2"></div>
+    <div class="blob" id="bg-b3"></div>
+    <div class="blob" id="bg-b4"></div>
+    <div id="bg-dots"></div>
+
+    <!-- hand-drawn ornaments: kept in the margins and the bottom band -->
+    <svg class="orn" id="bg-star2" style="left: 200px; top: 1700px" width="56" height="56" viewBox="0 0 70 70">
+      <path d="M35 4 L43 26 L66 28 L48 42 L54 65 L35 52 L16 65 L22 42 L4 28 L27 26 Z" fill="#A8D8F0" stroke="#2D2D2D" stroke-width="4" stroke-linejoin="round" />
+    </svg>
+    <svg class="orn" id="bg-squig" style="left: 380px; top: 1440px" width="160" height="40" viewBox="0 0 160 40">
+      <path d="M6 20 Q26 2 46 20 T86 20 T126 20 T156 20" fill="none" stroke="#2D2D2D" stroke-width="5" stroke-linecap="round" />
+    </svg>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#bg-b1", { x: 0, y: 0 }, { x: 60, y: 80, duration: 7, ease: "sine.inOut" }, 0);
+    tl.fromTo("#bg-b2", { x: 0, y: 0 }, { x: -70, y: -40, duration: 7, ease: "sine.inOut" }, 0);
+    tl.fromTo("#bg-b3", { x: 0, y: 0 }, { x: 50, y: -60, duration: 7, ease: "sine.inOut" }, 0);
+    tl.fromTo("#bg-b4", { x: 0, y: 0 }, { x: -40, y: 30, duration: 7, ease: "sine.inOut" }, 0);
+    tl.fromTo("#bg-star2", { rotation: 8 }, { rotation: -8, duration: 1.6, ease: "sine.inOut", yoyo: true, repeat: 3 }, 0);
+    tl.set({}, {}, 7);
+    window.__timelines["bg"] = tl;
+  </script>
+</template>
