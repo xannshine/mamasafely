@@ -1,0 +1,71 @@
+{
+ "cover": {
+  "kicker": "ERSTE WOCHEN",
+  "titel": "Spickzettel",
+  "icon": "babyface",
+  "teaser": "Zum Speichern!"
+ },
+ "slides": [
+  {
+   "titel": "Trinken",
+   "farbe": "#A8D8F0",
+   "icon": "cup",
+   "punkte": [
+    "8–⁠12 Mahlzeiten in 24 Stunden",
+    "Auch nachts ganz normal",
+    "Auf Hungerzeichen achten"
+   ],
+   "notiz": "Gerade am Anfang trinken viele Babys sehr häufig."
+  },
+  {
+   "titel": "Windeln",
+   "farbe": "#FDE68A",
+   "icon": "drop",
+   "punkte": [
+    "Ab ca. Tag 5–⁠6: mind. 5–⁠6 nasse",
+    "Urin hell & kaum riechend",
+    "Deutlich weniger? Hebamme fragen"
+   ],
+   "notiz": "Nasse Windeln zeigen, dass dein Baby genug trinkt."
+  },
+  {
+   "titel": "Schlafen",
+   "farbe": "#FFCBA4",
+   "icon": "moon",
+   "punkte": [
+    "Ca. 14–⁠17 Stunden am Tag",
+    "In kurzen Etappen",
+    "Immer auf dem Rücken"
+   ],
+   "notiz": "Einen festen Rhythmus gibt es am Anfang noch nicht."
+  },
+  {
+   "titel": "Gewicht",
+   "farbe": "#A8E6CF",
+   "icon": "heart",
+   "punkte": [
+    "Erst etwas Abnahme ist normal",
+    "Geburtsgewicht nach ca. 10–⁠14 Tagen",
+    "Die Hebamme kontrolliert das"
+   ],
+   "notiz": "Im Wochenbett wiegt deine Hebamme dein Baby regelmäßig."
+  },
+  {
+   "titel": "Nabel",
+   "farbe": "#D4A5E8",
+   "icon": "babyface",
+   "punkte": [
+    "Fällt meist nach 1–⁠2 Wochen ab",
+    "Trocken & sauber halten",
+    "Rötung oder Geruch? Abklären"
+   ],
+   "notiz": "Bei Rötung, Nässen oder Geruch: Hebamme oder Kinderarzt fragen."
+  }
+ ],
+ "schluss": {
+  "titel": "Speichern & <span class=\"mark yel\">teilen!</span>",
+  "text": "Unsicher? <b>Frag deine Hebamme</b> – dafür ist sie da.",
+  "tipp": "<b>Gratis:</b> Kliniktasche-Checkliste zum Abhaken – Link in meiner Bio.",
+  "quelle": "Infos nach Empfehlungen von Hebammen & Kinderärzten"
+ }
+}

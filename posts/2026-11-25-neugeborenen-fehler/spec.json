@@ -1,0 +1,72 @@
+{
+ "cover": {
+  "kicker": "HEBAMMEN-TIPPS",
+  "titel": "5 Neugeborenen-<span class=\"mark\">Fehler</span>",
+  "icon": "babyface",
+  "teaser": "Nr. 5 ist wichtig!"
+ },
+ "slides": [
+  {
+   "titel": "Bauchlage zum Schlafen",
+   "farbe": "#A8D8F0",
+   "icon": "moon",
+   "punkte": [
+    "Zum Schlafen immer auf den Rücken",
+    "Auch beim Mittagsschlaf",
+    "Bauchlage nur wach & unter Aufsicht"
+   ],
+   "notiz": "Die Rückenlage senkt das Risiko für den plötzlichen Kindstod."
+  },
+  {
+   "titel": "Kissen & Kuscheltiere im Bett",
+   "farbe": "#FDE68A",
+   "icon": "heart",
+   "punkte": [
+    "Kein Kissen, keine Decke",
+    "Kein Nestchen, keine Kuscheltiere",
+    "Schlafsack statt Bettdecke"
+   ],
+   "notiz": "Ein leeres Bett ist das sicherste Bett."
+  },
+  {
+   "titel": "Zu warm einpacken",
+   "farbe": "#FFCBA4",
+   "icon": "flame",
+   "punkte": [
+    "Im Nacken fühlen, nicht an den Händen",
+    "Schlafzimmer nachts ca. 16–⁠18 °C",
+    "Drinnen keine Mütze zum Schlafen"
+   ],
+   "notiz": "Kühle Hände sind normal – der Nacken zeigt, ob es passt."
+  },
+  {
+   "titel": "Fieber abwarten",
+   "farbe": "#D4A5E8",
+   "icon": "drop",
+   "punkte": [
+    "Unter 3 Monaten: ab 38 °C zum Arzt",
+    "Auch nachts: Notdienst 116 117",
+    "Bei Atemnot oder Apathie: 112"
+   ],
+   "notiz": "Bei Neugeborenen lieber einmal zu früh anrufen."
+  },
+  {
+   "titel": "Schreiendes Baby schütteln",
+   "farbe": "#F7C8D4",
+   "icon": "hand",
+   "hinweis": "Niemals!",
+   "punkte": [
+    "Auch nicht kurz oder sanft",
+    "Baby sicher ins Bett legen",
+    "Kurz rausgehen & Hilfe holen"
+   ],
+   "notiz": "Hilfe bei viel Schreien: Hebamme oder Kinderarztpraxis fragen."
+  }
+ ],
+ "schluss": {
+  "titel": "Speichern & <span class=\"mark yel\">teilen!</span>",
+  "text": "Schick das an werdende Eltern – <b>das kann wirklich helfen.</b>",
+  "tipp": "<b>Gratis:</b> Kliniktasche-Checkliste zum Abhaken – Link in meiner Bio.",
+  "quelle": "Infos nach Empfehlungen von Hebammen & Kinderärzten"
+ }
+}

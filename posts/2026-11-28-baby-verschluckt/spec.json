@@ -1,0 +1,74 @@
+{
+ "cover": {
+  "kicker": "ERSTE HILFE",
+  "titel": "x",
+  "icon": "babyface",
+  "teaser": "Bitte speichern!"
+ },
+ "slides": [
+  {
+   "titel": "Hustet dein Baby noch?",
+   "farbe": "#A8E6CF",
+   "icon": "voice",
+   "punkte": [
+    "Kräftig husten lassen",
+    "Nicht klopfen, nicht eingreifen",
+    "Genau beobachten"
+   ],
+   "notiz": "Husten ist der beste Schutz, um den Fremdkörper loszuwerden."
+  },
+  {
+   "titel": "Warnzeichen: Sofort 112!",
+   "farbe": "#F7C8D4",
+   "icon": "eye",
+   "hinweis": "Notruf!",
+   "punkte": [
+    "Hustet nicht mehr oder nur ganz leise",
+    "Ringt nach Luft, kann nicht schreien",
+    "Lippen werden bläulich"
+   ],
+   "notiz": "Lass jemanden 112 rufen – oder stell dein Handy auf Lautsprecher."
+  },
+  {
+   "titel": "5 Rückenschläge",
+   "farbe": "#A8D8F0",
+   "icon": "hand",
+   "punkte": [
+    "Baby bäuchlings auf deinen Unterarm",
+    "Kopf tiefer halten, Kiefer gut stützen",
+    "5 Schläge zwischen die Schulterblätter"
+   ],
+   "notiz": "Mit der flachen Hand – deinen Arm stützt du auf dem Oberschenkel ab."
+  },
+  {
+   "titel": "5 Brustkompressionen",
+   "farbe": "#FDE68A",
+   "icon": "heart",
+   "hinweis": "Wenn Nr. 3 nicht hilft",
+   "punkte": [
+    "Baby auf den Rücken drehen, Kopf tiefer",
+    "2 Finger auf die untere Brustbeinhälfte",
+    "5 kräftige, langsame Stöße"
+   ],
+   "notiz": "Im Wechsel mit den Rückenschlägen wiederholen, bis frei oder Hilfe da ist."
+  },
+  {
+   "titel": "Das solltest du wissen",
+   "farbe": "#FFCBA4",
+   "icon": "doc",
+   "hinweis": "Wichtig!",
+   "punkte": [
+    "Bei Babys kein Heimlich-Griff",
+    "Nicht blind mit dem Finger in den Mund",
+    "Danach immer ärztlich abklären lassen"
+   ],
+   "notiz": "Bewusstlos? Sofort Wiederbelebung starten und 112 rufen."
+  }
+ ],
+ "schluss": {
+  "titel": "Speichern & <span class=\"mark yel\">teilen!</span>",
+  "text": "Schick das an alle mit Baby – <b>im Ernstfall zählt jede Sekunde.</b>",
+  "tipp": "<b>Tipp:</b> Ein Erste-Hilfe-Kurs am Kind gibt dir Sicherheit – z. B. beim DRK.",
+  "quelle": "Nach den Leitlinien des European Resuscitation Council (ERC) · gilt für Babys unter 1 Jahr"
+ }
+}

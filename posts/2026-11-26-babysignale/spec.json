@@ -1,0 +1,26 @@
+{
+  "cover": {"kicker": "BABYSIGNALE", "titel": "Was dein Baby <span class=\"mark\">sagen will</span>", "icon": "babyface", "teaser": "Nr. 1 überrascht viele!"},
+  "slides": [
+    {"titel": "„Ich habe Hunger“", "farbe": "#A8D8F0", "icon": "cup", "hinweis": "Überrascht viele!",
+     "punkte": ["Hände zum Mund & Schmatzen", "Kopf suchend zur Seite drehen", "Weinen ist ein spätes Zeichen"],
+     "notiz": "Füttern klappt meist leichter, bevor dein Baby weint."},
+    {"titel": "„Ich bin müde“", "farbe": "#FDE68A", "icon": "moon",
+     "punkte": ["Gähnen & Augen reiben", "Ins Leere starren", "Quengeln & wegdrehen"],
+     "notiz": "Jetzt hinlegen – übermüdete Babys schlafen oft schwerer ein."},
+    {"titel": "„Mir ist alles zu viel“", "farbe": "#FFCBA4", "icon": "eye",
+     "punkte": ["Blick abwenden", "Rücken überstrecken", "Finger weit spreizen"],
+     "notiz": "Hilft: Licht dimmen, leise werden, Körperkontakt."},
+    {"titel": "„Mein Bauch zwickt“", "farbe": "#A8E6CF", "icon": "heart",
+     "punkte": ["Beine anziehen", "Roter Kopf & Pressen", "Kann auf Blähungen hindeuten"],
+     "notiz": "Oft hilft: Fliegergriff oder sanfte Bauchmassage im Uhrzeigersinn."},
+    {"titel": "„Bitte hol Hilfe“", "farbe": "#F7C8D4", "icon": "voice", "hinweis": "Wichtig!",
+     "punkte": ["Schrilles, ungewohntes Schreien", "Trinkt nicht oder ist sehr schlapp", "Fieber"],
+     "notiz": "Dann Kinderarzt oder Notdienst 116 117 – im Notfall 112."}
+  ],
+  "schluss": {
+    "titel": "Speichern & <span class=\"mark yel\">teilen!</span>",
+    "text": "Schick das an werdende Eltern – <b>das kann wirklich helfen.</b>",
+    "tipp": "<b>Gratis:</b> Kliniktasche-Checkliste zum Abhaken – Link in meiner Bio.",
+    "quelle": "Infos nach Empfehlungen von Hebammen & Kinderärzten"
+  }
+}
